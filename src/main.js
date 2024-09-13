@@ -5,7 +5,11 @@ const removeCssVariable = ([property]) => document.documentElement.style.removeP
 let appliedPaletteEntries = [];
 
 const applyCurrentPalette = async function () {
-  const { currentPalette = '' } = await browser.storage.local.get('currentPalette');
+  let { currentPalette = '', previewPalette } = await browser.storage.local.get();
+
+  if (previewPalette) {
+    currentPalette = 'previewPalette';
+  }
 
   if (!currentPalette) {
     appliedPaletteEntries.forEach(removeCssVariable);
@@ -13,7 +17,7 @@ const applyCurrentPalette = async function () {
     return;
   }
 
-  const paletteIsBuiltIn = currentPalette.startsWith('palette:') === false;
+  const paletteIsBuiltIn = currentPalette.startsWith('palette:') === false && currentPalette !== 'previewPalette';
   const { [currentPalette]: rawCurrentPaletteData = {} } = paletteIsBuiltIn
     ? await paletteData
     : await browser.storage.local.get(currentPalette);
@@ -55,9 +59,9 @@ const onStorageChanged = async function (changes, areaName) {
     return;
   }
 
-  const { currentPalette, fontFamily, customFontFamily, fontSize } = changes;
+  const { currentPalette, previewPalette, fontFamily, customFontFamily, fontSize } = changes;
 
-  if (currentPalette || Object.keys(changes).some(key => key.startsWith('palette:'))) {
+  if (currentPalette || previewPalette || Object.keys(changes).some(key => key.startsWith('palette:'))) {
     applyCurrentPalette();
   }
 
