@@ -1,9 +1,29 @@
+/* eslint-disable quote-props */
 /* eslint-disable comma-dangle */
 import fs from 'node:fs';
 
 const paletteData = JSON.parse(fs.readFileSync('src/paletteData.json', 'utf8'));
 const nativePaletteSystemData = JSON.parse(fs.readFileSync('src/paletteSystemData.json', 'utf8'));
-const designTokenData = (await import('./designTokens.js')).default;
+const realDesignTokenData = (await import('./designTokens.js')).default;
+
+// for colors except navy, colorSomeColor0 is white, colorSomeColor50 is opaque, and colorSomeColor100 is black.
+// let's double this range; now 0-100 percentages are always the color mixed into white or transparent.
+const designTokenData = {};
+const regex = /color(?:red|orange|yellow|green|blue|purple|pink)([\d.]+)/i;
+for (const [key, value] of Object.entries(realDesignTokenData)) {
+  const res = regex.exec(key);
+  if (res?.length) {
+    const num = Number(res[1]);
+    designTokenData[key.replace(res[1], num * 2)] = value;
+  } else {
+    designTokenData[key] = value;
+  }
+}
+
+// extras
+designTokenData.colorGray75 = 'rgba(89, 89, 89, 1)';
+designTokenData.colorGray18 = 'rgba(208, 208, 208, 1)';
+designTokenData.colorGray9 = 'rgba(231, 231, 231, 1)';
 
 // processes e.g. 'rgb(128, 128, 128, 1)' and '128, 128, 128' identically
 const processRgba = (value) => {
@@ -121,10 +141,10 @@ const generatedData = {};
 // '$1',
 const manualData = {
   accentTint: ['Blue', 'Blue', 'Blue', 'Navy', 'Green', 'Orange', 'Blue', 'Red', 'Purple', 'Navy', 'Purple', 'Yellow'],
-  panel: ['Navy95', 'Gray90', 'Navy85', 'Navy5', 'Gray90', 'Yellow10', 'Navy3', 'Gray90', 'Gray90', 'White', 'Gray95', 'BlackTint10'],
+  panel: ['Navy95', 'Gray90', 'Navy85', 'Navy5', 'Gray90', 'Yellow20', 'Navy3', 'Gray90', 'Gray90', 'White', 'Gray95', 'BlackTint10'],
   'chrome-tint': ['White', 'White', 'White', 'Navy', 'Green', 'Black', 'Navy', 'White', 'Orange', 'Navy', 'White', 'Black'],
   accent: ['Blue', 'Blue', 'Blue', 'Navy60', 'Green', 'Orange', 'Blue', 'Red', 'Purple', 'Black', 'Purple', 'Yellow'],
-  chrome: ['Navy', 'Gray95', 'Navy90', 'White', 'Gray95', 'Yellow5', 'White', 'Gray95', 'Gray95', 'White', 'Black', 'Pink']
+  chrome: ['Navy', 'Gray95', 'Navy90', 'White', 'Gray95', 'Yellow10', 'White', 'Gray95', 'Gray95', 'White', 'Black', 'Pink']
 };
 
 for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
@@ -136,13 +156,13 @@ for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
   for (const color of ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink']) {
     const generatedValues = {
       [`brand-${color}`]: `${generatedData[paletteName][color]}`,
-      [`brand-${color}-hover`]: `${generatedData[paletteName][color]}40`,
-      [`brand-${color}-pressed`]: `${generatedData[paletteName][color]}30`,
+      [`brand-${color}-hover`]: `${generatedData[paletteName][color]}80`,
+      [`brand-${color}-pressed`]: `${generatedData[paletteName][color]}60`,
       [`brand-${color}-tint`]: `${generatedData[paletteName][color]}Tint10`,
       [`brand-${color}-tint-strong`]: `${generatedData[paletteName][color]}Tint20`,
       [`brand-${color}-tint-heavy`]: `${generatedData[paletteName][color]}Tint30`,
 
-      [`chrome-${color}`]: `${generatedData[paletteName][color]}30`,
+      [`chrome-${color}`]: `${generatedData[paletteName][color]}60`,
     };
     generatedData[paletteName] = { ...generatedData[paletteName], ...generatedValues };
   }
@@ -171,10 +191,10 @@ for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
     'accent-tint-strong': `${manualData.accentTint[i]}Tint20`,
     'accent-tint-heavy': `${manualData.accentTint[i]}Tint30`,
 
-    'accent-hover': `${manualData.accent[i]}40`,
-    'chrome-ui-hover': `${manualData.accent[i]}40`,
-    'accent-pressed': `${manualData.accent[i]}30`,
-    'chrome-ui-pressed': `${manualData.accent[i]}30`,
+    'accent-hover': `${manualData.accent[i]}80`,
+    'chrome-ui-hover': `${manualData.accent[i]}80`,
+    'accent-pressed': `${manualData.accent[i]}60`,
+    'chrome-ui-pressed': `${manualData.accent[i]}60`,
 
     // completely consistent
     accent: `${manualData.accent[i]}`,
@@ -194,14 +214,14 @@ for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
     'danger-tint-strong': 'RedTint20',
     'danger-tint-heavy': 'RedTint30',
     success: 'Green',
-    'success-hover': 'Green40',
-    'success-pressed': 'Green30',
+    'success-hover': 'Green80',
+    'success-pressed': 'Green60',
     'success-tint': 'GreenTint10',
     'success-tint-strong': 'GreenTint20',
     'success-tint-heavy': 'GreenTint30',
     education: 'Purple',
-    'education-hover': 'Purple40',
-    'education-pressed': 'Purple30',
+    'education-hover': 'Purple80',
+    'education-pressed': 'Purple60',
     'education-tint': 'PurpleTint10',
     'education-tint-strong': 'PurpleTint20',
     'education-tint-heavy': 'PurpleTint30',
