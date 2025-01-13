@@ -20,10 +20,21 @@ for (const [key, value] of Object.entries(realDesignTokenData)) {
   }
 }
 
-// extras
+// extras color labels for ease of reference
 designTokenData.colorGray75 = 'rgba(89, 89, 89, 1)';
 designTokenData.colorGray18 = 'rgba(208, 208, 208, 1)';
 designTokenData.colorGray9 = 'rgba(231, 231, 231, 1)';
+designTokenData._cyber = '103,255,56';
+designTokenData._lcBlack = '191,191,191';
+designTokenData._lcWhite = '54,70,93';
+designTokenData._lcNavy = '26,39,53';
+designTokenData._lcRed = '217,94,64';
+designTokenData._lcOrange = '242,153,46';
+designTokenData._lcYellow = '247,221,56';
+designTokenData._lcGreen = '86,188,138';
+designTokenData._lcBlue = '82,158,204';
+designTokenData._lcPurple = '167,125,194';
+designTokenData._lcPink = '239,113,200';
 
 // processes e.g. 'rgb(128, 128, 128, 1)' and '128, 128, 128' identically
 const processRgba = (value) => {
@@ -141,10 +152,15 @@ const generatedData = {};
 // '$1',
 const manualData = {
   accentTint: ['Blue', 'Blue', 'Blue', 'Navy', 'Green', 'Orange', 'Blue', 'Red', 'Purple', 'Navy', 'Purple', 'Yellow'],
-  panel: ['Navy95', 'Gray90', 'Navy85', 'Navy5', 'Gray90', 'Yellow20', 'Navy3', 'Gray90', 'Gray90', 'White', 'Gray95', 'BlackTint10'],
-  'chrome-tint': ['White', 'White', 'White', 'Navy', 'Green', 'Black', 'Navy', 'White', 'Orange', 'Navy', 'White', 'Black'],
-  accent: ['Blue', 'Blue', 'Blue', 'Navy60', 'Green', 'Orange', 'Blue', 'Red', 'Purple', 'Black', 'Purple', 'Yellow'],
-  chrome: ['Navy', 'Gray95', 'Navy90', 'White', 'Gray95', 'Yellow10', 'White', 'Gray95', 'Gray95', 'White', 'Black', 'Pink']
+  chromeTint: ['White', 'White', 'White', 'Navy', 'Green', 'Black', 'Navy', 'White', 'Orange', 'Navy', 'White', 'Black'],
+  chrome: ['Navy', 'Gray95', 'Navy90', 'White', 'Gray95', 'Yellow10', 'White', 'Gray95', 'Gray95', 'White', 'Black', 'Pink'],
+  contentTint: ['Navy', 'White', 'White', 'Navy', 'Green', 'Black', 'Navy', 'White', 'Orange', 'Navy', 'White', 'Navy'],
+  contentUiFg: ['White', 'Black', 'Black', 'White', 'Black', 'Black', 'White', 'Black', 'Black', 'White', 'Black', 'Black'],
+  contentUi: ['Navy', 'Blue', 'Blue', 'Navy60', 'Green', 'Orange', 'Black', 'Red', 'Orange', 'Black', 'Purple', 'Pink'],
+
+  colorUiFgSecondary: ['Gray', 'Gray', 'Gray', 'Navy', 'Gray', 'Gray', 'Gray', 'Gray', 'Gray', 'Gray', 'Navy', 'Gray'],
+
+  isDark: [false, true, true, false, true, false, false, true, true, false, true, false]
 };
 
 for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
@@ -171,14 +187,14 @@ for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
   // '$1': '$2',
   const generatedValues = {
     // not very consistent
-    'chrome-panel': manualData.panel[i],
-    'content-panel': manualData.panel[i],
-    'chrome-mobile': manualData.panel[i],
-    modal: manualData.panel[i],
+    'chrome-panel': data[paletteName]['chrome-mobile'],
+    'content-panel': data[paletteName]['chrome-mobile'],
+    'chrome-mobile': data[paletteName]['chrome-mobile'],
+    modal: data[paletteName]['chrome-mobile'],
 
-    'chrome-tint': `${manualData['chrome-tint'][i]}Tint5`,
-    'chrome-tint-strong': `${manualData['chrome-tint'][i]}Tint10`,
-    'chrome-tint-heavy': `${manualData['chrome-tint'][i]}Tint15`,
+    'chrome-tint': `${manualData.chromeTint[i]}Tint5`,
+    'chrome-tint-strong': `${manualData.chromeTint[i]}Tint10`,
+    'chrome-tint-heavy': `${manualData.chromeTint[i]}Tint15`,
 
     // mostly consistent
     'accent-fg-light': 'White',
@@ -191,18 +207,48 @@ for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
     'accent-tint-strong': `${manualData.accentTint[i]}Tint20`,
     'accent-tint-heavy': `${manualData.accentTint[i]}Tint30`,
 
-    'accent-hover': `${manualData.accent[i]}80`,
-    'chrome-ui-hover': `${manualData.accent[i]}80`,
-    'accent-pressed': `${manualData.accent[i]}60`,
-    'chrome-ui-pressed': `${manualData.accent[i]}60`,
+    'accent-hover': `${data[paletteName].accent}80`,
+    'chrome-ui-hover': `${data[paletteName].accent}80`,
+    'accent-pressed': `${data[paletteName].accent}60`,
+    'chrome-ui-pressed': `${data[paletteName].accent}60`,
+
+    'danger-hover': 'Red80',
+    'danger-pressed': 'Red60',
+
+    'content-tint': `${manualData.contentTint[i]}Tint5`,
+    'content-tint-strong': `${manualData.contentTint[i]}Tint10`,
+    'content-tint-heavy': `${manualData.contentTint[i]}Tint15`,
+
+    'content-ui-fg': manualData.contentUiFg[i],
+    'content-ui-fg-secondary': `${manualData.contentUiFg[i]}Tint80`,
+    'content-ui-fg-tertiary': `${manualData.contentUiFg[i]}Tint60`,
+
+    'content-ui': manualData.contentUi[i],
+    'content-ui-hover': `${manualData.contentUi[i]}80`,
+    'content-ui-pressed': `${manualData.contentUi[i]}60`,
+    'content-ui-focus': manualData.contentUi[i],
+
+    'content-danger': `Red${manualData.isDark[i] ? 60 : 140}`,
+    'content-success': `Green${manualData.isDark[i] ? 60 : 140}`,
+    'content-education': `Purple${manualData.isDark[i] ? 60 : 140}`,
+    'content-blue': `${data[paletteName].blue}${manualData.isDark[i] ? 60 : 140}`,
+    'content-purple': `${data[paletteName].purple}${manualData.isDark[i] ? 60 : 140}`,
+    'content-pink': `${data[paletteName].pink}${manualData.isDark[i] ? 60 : 140}`,
+    'content-red': `${data[paletteName].red}${manualData.isDark[i] ? 60 : 140}`,
+    'content-orange': `${data[paletteName].orange}${manualData.isDark[i] ? 60 : 140}`,
+    'content-yellow': `${data[paletteName].yellow}${manualData.isDark[i] ? 60 : 140}`,
+    'content-green': `${data[paletteName].green}${manualData.isDark[i] ? 60 : 140}`,
+
+    'color-ui-fg-secondary': `${manualData.colorUiFgSecondary[i]}${manualData.isDark[i] ? 60 : 40}`,
+    'color-ui-fg-tertiary': `${manualData.colorUiFgSecondary[i]}${manualData.isDark[i] ? 40 : 60}`,
 
     // completely consistent
-    accent: `${manualData.accent[i]}`,
-    'chrome-ui': `${manualData.accent[i]}`,
-    'chrome-ui-focus': `${manualData.accent[i]}`,
+    accent: `${data[paletteName].accent}`,
+    'chrome-ui': `${data[paletteName].accent}`,
+    'chrome-ui-focus': `${data[paletteName].accent}`,
 
-    chrome: `${manualData.chrome[i]}`,
-    'top-menu': `${manualData.chrome[i]}`,
+    chrome: `${data[paletteName].chrome}`,
+    'top-menu': `${data[paletteName].chrome}`,
 
     'color-tint': 'BlackTint10',
     'color-tint-strong': 'BlackTint15',
@@ -213,6 +259,7 @@ for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
     'danger-tint': 'RedTint10',
     'danger-tint-strong': 'RedTint20',
     'danger-tint-heavy': 'RedTint30',
+    danger: 'Red',
     success: 'Green',
     'success-hover': 'Green80',
     'success-pressed': 'Green60',
