@@ -10,7 +10,7 @@ trueBlue:
                      blue Blue
                    purple Purple
                      pink Pink
-         secondary-accent Navy5
+         secondary-accent Navy10
                    follow 243,248,251
         deprecated-accent Blue
                    accent Blue
@@ -22,24 +22,24 @@ trueBlue:
        accent-tint-strong BlueTint20
         accent-tint-heavy BlueTint30
                    chrome Navy
-             chrome-panel Navy47.5
+             chrome-panel Navy95
       chrome-panel-border WhiteTint5
               chrome-tint WhiteTint5
        chrome-tint-strong WhiteTint10
         chrome-tint-heavy WhiteTint15
             chrome-mobile Navy
                 chrome-fg White
-      chrome-fg-secondary Navy20
-       chrome-fg-tertiary Navy30
+      chrome-fg-secondary Navy40
+       chrome-fg-tertiary Navy60
             content-panel White
      content-panel-border Transparent
              content-tint NavyTint5
       content-tint-strong NavyTint10
        content-tint-heavy NavyTint15
- content-mobile-container Navy1.5
+ content-mobile-container Navy3
                content-fg Black
-     content-fg-secondary Navy30
-      content-fg-tertiary Navy20
+     content-fg-secondary Navy60
+      content-fg-tertiary Navy40
        color-panel-border Transparent
                color-tint BlackTint10
         color-tint-strong BlackTint15
@@ -92,12 +92,12 @@ trueBlue:
             chrome-yellow Yellow30
              chrome-green Green30
                content-ui Navy
-         content-ui-hover Navy45
-       content-ui-pressed Navy40
+         content-ui-hover Navy90
+       content-ui-pressed Navy80
          content-ui-focus Blue
             content-ui-fg White
-  content-ui-fg-secondary Navy20
-   content-ui-fg-tertiary Navy30
+  content-ui-fg-secondary Navy40
+   content-ui-fg-tertiary Navy60
         content-ui-toggle White
            content-danger Red70
           content-success Green70
@@ -122,8 +122,8 @@ trueBlue:
          image-ui-pressed WhiteTint80
           image-ui-accent White
               image-ui-fg Black
-    image-ui-fg-secondary Navy30
-     image-ui-fg-tertiary Navy20
+    image-ui-fg-secondary Navy60
+     image-ui-fg-tertiary Navy40
           image-ui-toggle White
                    danger Red
              danger-hover Red60
@@ -310,8 +310,8 @@ darkMode:
          image-ui-pressed WhiteTint80
           image-ui-accent White
               image-ui-fg Black
-    image-ui-fg-secondary Navy30
-     image-ui-fg-tertiary Navy20
+    image-ui-fg-secondary Navy60
+     image-ui-fg-tertiary Navy40
           image-ui-toggle White
                    danger Red
              danger-hover Red40
@@ -397,25 +397,25 @@ lowContrastClassic:
               accent-tint BlueTint10
        accent-tint-strong BlueTint20
         accent-tint-heavy BlueTint30
-                   chrome Navy45
-             chrome-panel Navy42.5
+                   chrome Navy90
+             chrome-panel Navy85
       chrome-panel-border Transparent
               chrome-tint WhiteTint5
        chrome-tint-strong WhiteTint10
         chrome-tint-heavy WhiteTint15
-            chrome-mobile Navy45
-                chrome-fg Navy10
-      chrome-fg-secondary Navy20
-       chrome-fg-tertiary Navy30
-            content-panel Navy42.5
+            chrome-mobile Navy90
+                chrome-fg Navy20
+      chrome-fg-secondary Navy40
+       chrome-fg-tertiary Navy60
+            content-panel Navy85
      content-panel-border Transparent
              content-tint WhiteTint5
       content-tint-strong WhiteTint10
        content-tint-heavy WhiteTint15
- content-mobile-container Navy1.5
-               content-fg Navy10
-     content-fg-secondary Navy20
-      content-fg-tertiary Navy30
+ content-mobile-container Navy3
+               content-fg Navy20
+     content-fg-secondary Navy40
+      content-fg-tertiary Navy60
        color-panel-border Transparent
                color-tint BlackTint10
         color-tint-strong BlackTint15
@@ -434,12 +434,12 @@ lowContrastClassic:
                  image-fg White
        image-fg-secondary WhiteTint80
         image-fg-tertiary WhiteTint60
-                side-menu Navy45
+                side-menu Navy90
          side-menu-shadow WhiteTint10
-                 top-menu Navy45
+                 top-menu Navy90
           top-menu-shadow WhiteTint10
-                    modal Navy42.5
-             modal-border Navy40
+                    modal Navy85
+             modal-border Navy80
                  tool-tip Black
             tool-tip-text White
              overlay-tint NavyTint20
@@ -498,8 +498,8 @@ lowContrastClassic:
          image-ui-pressed WhiteTint80
           image-ui-accent White
               image-ui-fg Black
-    image-ui-fg-secondary Navy30
-     image-ui-fg-tertiary Navy20
+    image-ui-fg-secondary Navy60
+     image-ui-fg-tertiary Navy40
           image-ui-toggle White
                    danger Red
              danger-hover Red40
@@ -564,7 +564,7 @@ lowContrastClassic:
 
 cement:
                     black Black
-                    white Gray9
+                    white 233,233,233
             white-on-dark Black
                      navy Gray3
                       red Red
@@ -577,33 +577,33 @@ cement:
          secondary-accent 221,221,221
                    follow 209,227,235
         deprecated-accent Gray50
-                   accent Navy30
+                   accent Navy60
                 accent-fg White
           accent-fg-light White
-             accent-hover Navy25
-           accent-pressed Navy20
+             accent-hover Navy50
+           accent-pressed Navy40
               accent-tint NavyTint5
        accent-tint-strong NavyTint10
         accent-tint-heavy NavyTint15
                    chrome White
-             chrome-panel Navy2.5
+             chrome-panel Navy5
       chrome-panel-border Transparent
               chrome-tint NavyTint5
        chrome-tint-strong NavyTint10
         chrome-tint-heavy NavyTint15
             chrome-mobile White
-                chrome-fg Navy40
-      chrome-fg-secondary Navy30
-       chrome-fg-tertiary Navy20
-            content-panel Navy2.5
+                chrome-fg Navy80
+      chrome-fg-secondary Navy60
+       chrome-fg-tertiary Navy40
+            content-panel Navy5
      content-panel-border Transparent
              content-tint NavyTint5
       content-tint-strong NavyTint10
        content-tint-heavy NavyTint15
- content-mobile-container Navy2.5
-               content-fg Navy40
-     content-fg-secondary Navy30
-      content-fg-tertiary Navy20
+ content-mobile-container Navy5
+               content-fg Navy80
+     content-fg-secondary Navy60
+      content-fg-tertiary Navy40
        color-panel-border Transparent
                color-tint BlackTint10
         color-tint-strong BlackTint15
@@ -622,7 +622,7 @@ cement:
                  image-fg White
        image-fg-secondary WhiteTint80
         image-fg-tertiary WhiteTint60
-                side-menu Navy2.5
+                side-menu Navy5
          side-menu-shadow NavyTint10
                  top-menu White
           top-menu-shadow NavyTint5
@@ -633,14 +633,14 @@ cement:
              overlay-tint BlackTint20
       overlay-tint-strong BlackTint40
        overlay-tint-heavy BlackTint80
-              unread-tint Navy5
-        unread-tint-hover Navy10
+              unread-tint Navy10
+        unread-tint-hover Navy20
                badge-icon White
                badge-text White
-                chrome-ui Navy30
-          chrome-ui-hover Navy25
-        chrome-ui-pressed Navy20
-          chrome-ui-focus Navy30
+                chrome-ui Navy60
+          chrome-ui-hover Navy50
+        chrome-ui-pressed Navy40
+          chrome-ui-focus Navy60
              chrome-ui-fg White
    chrome-ui-fg-secondary WhiteTint80
     chrome-ui-fg-tertiary WhiteTint60
@@ -655,10 +655,10 @@ cement:
             chrome-orange Orange70
             chrome-yellow Yellow70
              chrome-green Green70
-               content-ui Navy30
-         content-ui-hover Navy25
-       content-ui-pressed Navy20
-         content-ui-focus Navy30
+               content-ui Navy60
+         content-ui-hover Navy50
+       content-ui-pressed Navy40
+         content-ui-focus Navy60
             content-ui-fg White
   content-ui-fg-secondary WhiteTint80
    content-ui-fg-tertiary WhiteTint60
@@ -678,16 +678,16 @@ cement:
          color-ui-pressed BlackTint80
            color-ui-focus Black
               color-ui-fg White
-    color-ui-fg-secondary Navy20
-     color-ui-fg-tertiary Navy30
+    color-ui-fg-secondary Navy40
+     color-ui-fg-tertiary Navy60
           color-ui-toggle White
                  image-ui White
            image-ui-hover WhiteTint90
          image-ui-pressed WhiteTint80
           image-ui-accent White
               image-ui-fg Black
-    image-ui-fg-secondary Navy30
-     image-ui-fg-tertiary Navy20
+    image-ui-fg-secondary Navy60
+     image-ui-fg-tertiary Navy40
           image-ui-toggle White
                    danger Red
              danger-hover Red40
@@ -976,7 +976,7 @@ canary:
              content-tint BlackTint5
       content-tint-strong BlackTint10
        content-tint-heavy BlackTint15
- content-mobile-container Navy1.5
+ content-mobile-container Navy3
                content-fg Black
      content-fg-secondary BlackTint60
       content-fg-tertiary BlackTint40
@@ -1139,7 +1139,7 @@ ghost:
                    purple Purple
                      pink Pink
          secondary-accent Red
-                   follow Gray18
+                   follow 208,208,208
         deprecated-accent Purple
                    accent Blue
                 accent-fg Black
@@ -1150,24 +1150,24 @@ ghost:
        accent-tint-strong BlueTint20
         accent-tint-heavy BlueTint30
                    chrome White
-             chrome-panel Navy1.5
-      chrome-panel-border Navy2.5
+             chrome-panel Navy3
+      chrome-panel-border Navy5
               chrome-tint NavyTint5
        chrome-tint-strong NavyTint10
         chrome-tint-heavy NavyTint15
             chrome-mobile White
                 chrome-fg Black
-      chrome-fg-secondary Navy30
-       chrome-fg-tertiary Navy20
+      chrome-fg-secondary Navy60
+       chrome-fg-tertiary Navy40
             content-panel White
-     content-panel-border Navy2.5
+     content-panel-border Navy5
              content-tint NavyTint5
       content-tint-strong NavyTint10
        content-tint-heavy NavyTint15
- content-mobile-container Navy1.5
+ content-mobile-container Navy3
                content-fg Black
-     content-fg-secondary Navy30
-      content-fg-tertiary Navy20
+     content-fg-secondary Navy60
+      content-fg-tertiary Navy40
        color-panel-border Transparent
                color-tint BlackTint10
         color-tint-strong BlackTint15
@@ -1186,7 +1186,7 @@ ghost:
                  image-fg White
        image-fg-secondary WhiteTint80
         image-fg-tertiary WhiteTint60
-                side-menu Navy1.5
+                side-menu Navy3
          side-menu-shadow NavyTint5
                  top-menu White
           top-menu-shadow NavyTint5
@@ -1250,8 +1250,8 @@ ghost:
          image-ui-pressed WhiteTint80
           image-ui-accent White
               image-ui-fg Black
-    image-ui-fg-secondary Navy30
-     image-ui-fg-tertiary Navy20
+    image-ui-fg-secondary Navy60
+     image-ui-fg-tertiary Navy40
           image-ui-toggle White
                    danger Red
              danger-hover Red40
@@ -1702,8 +1702,8 @@ nuclearWhite:
                      blue Black
                    purple Black
                      pink Black
-         secondary-accent Gray18
-                   follow Gray18
+         secondary-accent 208,208,208
+                   follow 208,208,208
         deprecated-accent 150,150,150
                    accent Black
                 accent-fg White
@@ -1715,23 +1715,23 @@ nuclearWhite:
         accent-tint-heavy NavyTint15
                    chrome White
              chrome-panel White
-      chrome-panel-border Navy2.5
+      chrome-panel-border Navy5
               chrome-tint NavyTint5
        chrome-tint-strong NavyTint10
         chrome-tint-heavy NavyTint15
             chrome-mobile White
                 chrome-fg Black
-      chrome-fg-secondary Navy40
-       chrome-fg-tertiary Navy30
+      chrome-fg-secondary Navy80
+       chrome-fg-tertiary Navy60
             content-panel White
-     content-panel-border Navy2.5
+     content-panel-border Navy5
              content-tint NavyTint5
       content-tint-strong NavyTint10
        content-tint-heavy NavyTint15
- content-mobile-container Navy1.5
+ content-mobile-container Navy3
                content-fg Black
-     content-fg-secondary Navy40
-      content-fg-tertiary Navy30
+     content-fg-secondary Navy80
+      content-fg-tertiary Navy60
        color-panel-border Transparent
                color-tint BlackTint10
         color-tint-strong BlackTint15
@@ -1770,8 +1770,8 @@ nuclearWhite:
         chrome-ui-pressed Gray80
           chrome-ui-focus Black
              chrome-ui-fg White
-   chrome-ui-fg-secondary Navy20
-    chrome-ui-fg-tertiary Navy30
+   chrome-ui-fg-secondary Navy40
+    chrome-ui-fg-tertiary Navy60
          chrome-ui-toggle White
             chrome-danger Red70
            chrome-success Green70
@@ -1994,8 +1994,8 @@ gothRave:
          color-ui-pressed BlackTint80
            color-ui-focus Black
               color-ui-fg White
-    color-ui-fg-secondary Navy30
-     color-ui-fg-tertiary Navy20
+    color-ui-fg-secondary Navy60
+     color-ui-fg-tertiary Navy40
           color-ui-toggle White
                  image-ui White
            image-ui-hover WhiteTint90
@@ -2003,7 +2003,7 @@ gothRave:
           image-ui-accent White
               image-ui-fg Black
     image-ui-fg-secondary Gray60
-     image-ui-fg-tertiary Navy20
+     image-ui-fg-tertiary Navy40
           image-ui-toggle White
                    danger Red
              danger-hover Red40
@@ -2104,10 +2104,10 @@ pride:
              content-tint NavyTint5
       content-tint-strong NavyTint10
        content-tint-heavy NavyTint15
- content-mobile-container Navy1.5
+ content-mobile-container Navy3
                content-fg Black
-     content-fg-secondary Navy30
-      content-fg-tertiary Navy20
+     content-fg-secondary Navy60
+      content-fg-tertiary Navy40
        color-panel-border Transparent
                color-tint BlackTint10
         color-tint-strong BlackTint15
@@ -2190,8 +2190,8 @@ pride:
          image-ui-pressed WhiteTint80
           image-ui-accent White
               image-ui-fg Black
-    image-ui-fg-secondary Navy30
-     image-ui-fg-tertiary Navy20
+    image-ui-fg-secondary Navy60
+     image-ui-fg-tertiary Navy40
           image-ui-toggle White
                    danger Red
              danger-hover Red40
@@ -2256,7 +2256,7 @@ pride:
 
 ------                        trueBlue     darkMode lowContrastC       cement   cybernetic       canary        ghost      vampire      pumpkin nuclearWhite     gothRave        pride
                     black        Black        White  191,191,191        Black   103,255,56        Black       Gray60        White    255,100,0        Black  158,120,229    117,8,135
-                    white        White     34,34,34     54,70,93        Gray9     34,34,34  250,250,200        White     34,34,34      34,16,0        White       Gray95        White
+                    white        White     34,34,34     54,70,93  233,233,233     34,34,34  250,250,200        White     34,34,34      34,16,0        White       Gray95        White
             white-on-dark        White        White  191,191,191        Black        Green        Black        Black        White    255,100,0        Black  119,201,230    254,237,6
                      navy         Navy        Black     26,39,53        Gray3        Black  255,255,232        White        Black        Black        White        Black   255,91,181
                       red          Red          Red    217,94,64          Red   103,255,56          Red          Red  136,136,136       Orange        Black     223,0,13     225,0,17
@@ -2266,36 +2266,36 @@ pride:
                      blue         Blue         Blue   82,158,204         Blue   103,255,56         Blue         Blue  136,136,136       Orange        Black   12,121,249     0,88,252
                    purple       Purple       Purple  167,125,194       Purple   103,255,56       Purple       Purple  119,119,119       Orange        Black    179,2,255    117,8,135
                      pink         Pink         Pink  239,113,200         Pink   103,255,56         Pink         Pink  156,156,156       Orange        Black    255,0,144    255,0,144
-         secondary-accent        Navy5     57,57,57    71,87,109  221,221,221     20,96,26  240,240,192          Red     56,56,56     64,24,15       Gray18     45,27,57  255,251,205
-                   follow  243,248,251     36,54,62    43,76,104  209,227,235     20,96,26  224,242,205       Gray18  136,136,136     21,36,23       Gray18      6,29,74  255,251,205
+         secondary-accent       Navy10     57,57,57    71,87,109  221,221,221     20,96,26  240,240,192          Red     56,56,56     64,24,15  208,208,208     45,27,57  255,251,205
+                   follow  243,248,251     36,54,62    43,76,104  209,227,235     20,96,26  224,242,205  208,208,208  136,136,136     21,36,23  208,208,208      6,29,74  255,251,205
         deprecated-accent         Blue         Blue   82,158,204       Gray50   103,255,56       Orange       Purple          Red       Purple  150,150,150   207,67,237     2,77,255
-                   accent         Blue         Blue         Blue       Navy30        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
+                   accent         Blue         Blue         Blue       Navy60        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
                 accent-fg        Black        Black        Black        White        Black        Black        Black        Black        Black        White        Black        Black
           accent-fg-light        White        White        White        White        White        White        White        White        White        White        White        Black
-             accent-hover       Blue40       Blue40       Blue40       Navy25      Green40     Orange40       Blue40        Red40     Purple40       Gray90     Purple40     Yellow40
-           accent-pressed       Blue30       Blue30       Blue30       Navy20      Green30     Orange30       Blue30        Red30     Purple30       Gray80     Purple30     Yellow30
+             accent-hover       Blue40       Blue40       Blue40       Navy50      Green40     Orange40       Blue40        Red40     Purple40       Gray90     Purple40     Yellow40
+           accent-pressed       Blue30       Blue30       Blue30       Navy40      Green30     Orange30       Blue30        Red30     Purple30       Gray80     Purple30     Yellow30
               accent-tint   BlueTint10   BlueTint10   BlueTint10    NavyTint5  GreenTint10  OrangeTint5   BlueTint10    RedTint10 PurpleTint10    NavyTint5 PurpleTint10 YellowTint10
        accent-tint-strong   BlueTint20   BlueTint20   BlueTint20   NavyTint10  GreenTint20 OrangeTint10   BlueTint20    RedTint20 PurpleTint20   NavyTint10 PurpleTint20 YellowTint20
         accent-tint-heavy   BlueTint30   BlueTint30   BlueTint30   NavyTint15  GreenTint30 OrangeTint20   BlueTint30    RedTint30 PurpleTint30   NavyTint15 PurpleTint30 YellowTint30
-                   chrome         Navy       Gray95       Navy45        White       Gray95      Yellow5        White       Gray95       Gray95        White        Black         Pink
-             chrome-panel     Navy47.5       Gray90     Navy42.5      Navy2.5       Gray90     Yellow10      Navy1.5       Gray90       Gray90        White       Gray95  BlackTint10
-      chrome-panel-border   WhiteTint5   WhiteTint5  Transparent  Transparent  GreenTint10  Transparent      Navy2.5   WhiteTint5 OrangeTint10      Navy2.5       Gray90  Transparent
+                   chrome         Navy       Gray95       Navy90        White       Gray95      Yellow5        White       Gray95       Gray95        White        Black         Pink
+             chrome-panel       Navy95       Gray90       Navy85        Navy5       Gray90     Yellow10        Navy3       Gray90       Gray90        White       Gray95  BlackTint10
+      chrome-panel-border   WhiteTint5   WhiteTint5  Transparent  Transparent  GreenTint10  Transparent        Navy5   WhiteTint5 OrangeTint10        Navy5       Gray90  Transparent
               chrome-tint   WhiteTint5   WhiteTint5   WhiteTint5    NavyTint5  GreenTint10   BlackTint5    NavyTint5  WhiteTint10 OrangeTint10    NavyTint5  WhiteTint10   BlackTint5
        chrome-tint-strong  WhiteTint10  WhiteTint10  WhiteTint10   NavyTint10  GreenTint20  BlackTint10   NavyTint10  WhiteTint15 OrangeTint20   NavyTint10  WhiteTint15  BlackTint10
         chrome-tint-heavy  WhiteTint15  WhiteTint15  WhiteTint15   NavyTint15  GreenTint30  BlackTint15   NavyTint15  WhiteTint20 OrangeTint30   NavyTint15  WhiteTint20  BlackTint15
-            chrome-mobile         Navy       Gray90       Navy45        White       Gray90      Yellow5        White       Gray90       Gray90        White       Gray90      Yellow5
-                chrome-fg        White        White       Navy10       Navy40        Green        Black        Black        White       Orange        Black       Blue40        White
-      chrome-fg-secondary       Navy20       Gray40       Navy20       Navy30  GreenTint60  BlackTint60       Navy30       Gray40 OrangeTint60       Navy40       Blue60  WhiteTint80
-       chrome-fg-tertiary       Navy30       Gray60       Navy30       Navy20  GreenTint40  BlackTint40       Navy20       Gray60 OrangeTint40       Navy30       Blue70  WhiteTint60
-            content-panel        White       Gray90     Navy42.5      Navy2.5       Gray90     Yellow10        White       Gray90       Gray90        White       Gray95        White
-     content-panel-border  Transparent       Gray85  Transparent  Transparent  GreenTint10  Transparent      Navy2.5   WhiteTint5 OrangeTint10      Navy2.5       Gray90  Transparent
+            chrome-mobile         Navy       Gray90       Navy90        White       Gray90      Yellow5        White       Gray90       Gray90        White       Gray90      Yellow5
+                chrome-fg        White        White       Navy20       Navy80        Green        Black        Black        White       Orange        Black       Blue40        White
+      chrome-fg-secondary       Navy40       Gray40       Navy40       Navy60  GreenTint60  BlackTint60       Navy60       Gray40 OrangeTint60       Navy80       Blue60  WhiteTint80
+       chrome-fg-tertiary       Navy60       Gray60       Navy60       Navy40  GreenTint40  BlackTint40       Navy40       Gray60 OrangeTint40       Navy60       Blue70  WhiteTint60
+            content-panel        White       Gray90       Navy85        Navy5       Gray90     Yellow10        White       Gray90       Gray90        White       Gray95        White
+     content-panel-border  Transparent       Gray85  Transparent  Transparent  GreenTint10  Transparent        Navy5   WhiteTint5 OrangeTint10        Navy5       Gray90  Transparent
              content-tint    NavyTint5   WhiteTint5   WhiteTint5    NavyTint5  GreenTint10   BlackTint5    NavyTint5  WhiteTint10 OrangeTint10    NavyTint5  WhiteTint10    NavyTint5
       content-tint-strong   NavyTint10  WhiteTint10  WhiteTint10   NavyTint10  GreenTint20  BlackTint10   NavyTint10  WhiteTint15 OrangeTint20   NavyTint10  WhiteTint15   NavyTint10
        content-tint-heavy   NavyTint15  WhiteTint15  WhiteTint15   NavyTint15  GreenTint30  BlackTint15   NavyTint15  WhiteTint20 OrangeTint30   NavyTint15  WhiteTint20   NavyTint15
- content-mobile-container      Navy1.5       Gray95      Navy1.5      Navy2.5       Gray95      Navy1.5      Navy1.5       Gray95       Gray95      Navy1.5       Gray95      Navy1.5
-               content-fg        Black        White       Navy10       Navy40        Green        Black        Black        White       Orange        Black     Purple30        Black
-     content-fg-secondary       Navy30       Gray40       Navy20       Navy30  GreenTint60  BlackTint60       Navy30       Gray40 OrangeTint60       Navy40     Purple40       Navy30
-      content-fg-tertiary       Navy20       Gray60       Navy30       Navy20  GreenTint40  BlackTint40       Navy20       Gray60 OrangeTint40       Navy30       Purple       Navy20
+ content-mobile-container        Navy3       Gray95        Navy3        Navy5       Gray95        Navy3        Navy3       Gray95       Gray95        Navy3       Gray95        Navy3
+               content-fg        Black        White       Navy20       Navy80        Green        Black        Black        White       Orange        Black     Purple30        Black
+     content-fg-secondary       Navy60       Gray40       Navy40       Navy60  GreenTint60  BlackTint60       Navy60       Gray40 OrangeTint60       Navy80     Purple40       Navy60
+      content-fg-tertiary       Navy40       Gray60       Navy60       Navy40  GreenTint40  BlackTint40       Navy40       Gray60 OrangeTint40       Navy60       Purple       Navy40
        color-panel-border  Transparent        Black  Transparent  Transparent        Black  Transparent  Transparent        Black        Black  Transparent        Black  Transparent
                color-tint  BlackTint10  BlackTint10  BlackTint10  BlackTint10  BlackTint10  BlackTint10  BlackTint10  BlackTint10  BlackTint10  BlackTint10  BlackTint10  BlackTint10
         color-tint-strong  BlackTint15  BlackTint15  BlackTint15  BlackTint15  BlackTint15  BlackTint15  BlackTint15  BlackTint15  BlackTint15  BlackTint15  BlackTint15  BlackTint15
@@ -2314,28 +2314,28 @@ pride:
                  image-fg        White        White        White        White        White        White        White        White        White        White        White        White
        image-fg-secondary  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80
         image-fg-tertiary  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60  WhiteTint60
-                side-menu         Navy       Gray95       Navy45      Navy2.5       Gray95      Yellow5      Navy1.5       Gray95       Gray95        White        Black  BlackTint10
+                side-menu         Navy       Gray95       Navy90        Navy5       Gray95      Yellow5        Navy3       Gray95       Gray95        White        Black  BlackTint10
          side-menu-shadow  WhiteTint10  WhiteTint10  WhiteTint10   NavyTint10  GreenTint10   BlackTint5    NavyTint5   WhiteTint5   WhiteTint5    NavyTint5  WhiteTint10  Transparent
-                 top-menu         Navy       Gray95       Navy45        White       Gray95      Yellow5        White       Gray95       Gray95        White        Black         Pink
+                 top-menu         Navy       Gray95       Navy90        White       Gray95      Yellow5        White       Gray95       Gray95        White        Black         Pink
           top-menu-shadow  WhiteTint10  WhiteTint10  WhiteTint10    NavyTint5  GreenTint10   BlackTint5    NavyTint5   WhiteTint5   WhiteTint5    NavyTint5  WhiteTint10  BlackTint10
-                    modal        White       Gray90     Navy42.5        White       Gray90      Yellow5        White       Gray90       Gray90        White       Gray95        White
-             modal-border   NavyTint10       Gray85       Navy40   NavyTint10  GreenTint10  BlackTint10   NavyTint10       Gray85 OrangeTint10   NavyTint10       Gray90  BlackTint10
+                    modal        White       Gray90       Navy85        White       Gray90      Yellow5        White       Gray90       Gray90        White       Gray95        White
+             modal-border   NavyTint10       Gray85       Navy80   NavyTint10  GreenTint10  BlackTint10   NavyTint10       Gray85 OrangeTint10   NavyTint10       Gray90  BlackTint10
                  tool-tip        Black        White        Black        Black        White        Black        Black        White        White        Black        White        Black
             tool-tip-text        White        Black        White        White        Black        White        White        Black        Black        White        Black        White
              overlay-tint   NavyTint20  BlackTint20   NavyTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20
       overlay-tint-strong   NavyTint60  BlackTint60   NavyTint40  BlackTint40  BlackTint40  BlackTint40  BlackTint60  BlackTint40  BlackTint40  BlackTint40  BlackTint40  BlackTint40
        overlay-tint-heavy   NavyTint80  BlackTint80   NavyTint90  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80
-              unread-tint   BlueTint10   BlueTint10   BlueTint10        Navy5  GreenTint10 OrangeTint10   BlueTint10    RedTint10 OrangeTint10   BlueTint10   BlueTint10 OrangeTint10
-        unread-tint-hover   BlueTint20   BlueTint20   BlueTint20       Navy10  GreenTint20 OrangeTint20   BlueTint20    RedTint20 OrangeTint20   BlueTint20   BlueTint20 OrangeTint20
+              unread-tint   BlueTint10   BlueTint10   BlueTint10       Navy10  GreenTint10 OrangeTint10   BlueTint10    RedTint10 OrangeTint10   BlueTint10   BlueTint10 OrangeTint10
+        unread-tint-hover   BlueTint20   BlueTint20   BlueTint20       Navy20  GreenTint20 OrangeTint20   BlueTint20    RedTint20 OrangeTint20   BlueTint20   BlueTint20 OrangeTint20
                badge-icon        White        White        White        White        White        White        White        White        White        White        White        White
                badge-text        Black        Black        Black        White        Black        Black        Black        Black        Black        White        Black        Black
-                chrome-ui         Blue         Blue         Blue       Navy30        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
-          chrome-ui-hover       Blue40       Blue40       Blue40       Navy25      Green40     Orange40       Blue40        Red40     Purple40       Gray90     Purple40     Yellow40
-        chrome-ui-pressed       Blue30       Blue30       Blue30       Navy20      Green30     Orange30       Blue30        Red30     Purple30       Gray80     Purple30     Yellow30
-          chrome-ui-focus         Blue         Blue         Blue       Navy30        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
+                chrome-ui         Blue         Blue         Blue       Navy60        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
+          chrome-ui-hover       Blue40       Blue40       Blue40       Navy50      Green40     Orange40       Blue40        Red40     Purple40       Gray90     Purple40     Yellow40
+        chrome-ui-pressed       Blue30       Blue30       Blue30       Navy40      Green30     Orange30       Blue30        Red30     Purple30       Gray80     Purple30     Yellow30
+          chrome-ui-focus         Blue         Blue         Blue       Navy60        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
              chrome-ui-fg        Black        Black        Black        White        Black        Black        Black        Black        Black        White        Black        Black
-   chrome-ui-fg-secondary  BlackTint80  BlackTint80  BlackTint80  WhiteTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80       Navy20  BlackTint80  BlackTint80
-    chrome-ui-fg-tertiary  BlackTint60  BlackTint60  BlackTint60  WhiteTint60  BlackTint60  BlackTint60  BlackTint60  BlackTint60  BlackTint60       Navy30  BlackTint60  BlackTint60
+   chrome-ui-fg-secondary  BlackTint80  BlackTint80  BlackTint80  WhiteTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80       Navy40  BlackTint80  BlackTint80
+    chrome-ui-fg-tertiary  BlackTint60  BlackTint60  BlackTint60  WhiteTint60  BlackTint60  BlackTint60  BlackTint60  BlackTint60  BlackTint60       Navy60  BlackTint60  BlackTint60
          chrome-ui-toggle        White        White        White        White        White        White        White        White        White        White        White        White
             chrome-danger        Red30        Red30        Red30        Red70        Red30        Red70        Red70        Red30        Red30        Red70        Red30        Red70
            chrome-success      Green30      Green30      Green30      Green70      Green30      Green70      Green70      Green30      Green30      Green70      Green30      Green70
@@ -2347,13 +2347,13 @@ pride:
             chrome-orange     Orange30     Orange30     Orange30     Orange70      Green30     Orange70     Orange70        Red30     Purple30     Orange70     Orange30     Orange30
             chrome-yellow     Yellow30     Yellow30     Yellow30     Yellow70      Green30     Yellow70     Yellow70        Red30     Purple30     Yellow70     Yellow30     Yellow30
              chrome-green      Green30      Green30      Green30      Green70      Green30      Green70      Green70        Red30     Purple30      Green70      Green30      Green30
-               content-ui         Navy         Blue         Blue       Navy30        Green       Orange        Black          Red       Orange        Black       Purple         Pink
-         content-ui-hover       Navy45       Blue40       Blue40       Navy25      Green40     Orange40       Gray90        Red40     Orange40       Gray90     Purple40       Pink40
-       content-ui-pressed       Navy40       Blue30       Blue30       Navy20      Green30     Orange30       Gray80        Red30     Orange30       Gray80     Purple30       Pink30
-         content-ui-focus         Blue         Blue         Blue       Navy30        Green       Orange         Blue          Red       Orange        Black       Purple         Pink
+               content-ui         Navy         Blue         Blue       Navy60        Green       Orange        Black          Red       Orange        Black       Purple         Pink
+         content-ui-hover       Navy90       Blue40       Blue40       Navy50      Green40     Orange40       Gray90        Red40     Orange40       Gray90     Purple40       Pink40
+       content-ui-pressed       Navy80       Blue30       Blue30       Navy40      Green30     Orange30       Gray80        Red30     Orange30       Gray80     Purple30       Pink30
+         content-ui-focus         Blue         Blue         Blue       Navy60        Green       Orange         Blue          Red       Orange        Black       Purple         Pink
             content-ui-fg        White        Black        Black        White        Black        Black        White        Black        Black        White        Black        Black
-  content-ui-fg-secondary       Navy20  BlackTint10  BlackTint80  WhiteTint80  BlackTint80  BlackTint80       Gray40  BlackTint80  BlackTint80       Gray40  BlackTint80  BlackTint80
-   content-ui-fg-tertiary       Navy30  BlackTint10  BlackTint60  WhiteTint60  BlackTint60  BlackTint60       Gray60  BlackTint60  BlackTint60       Gray60  BlackTint60  BlackTint60
+  content-ui-fg-secondary       Navy40  BlackTint10  BlackTint80  WhiteTint80  BlackTint80  BlackTint80       Gray40  BlackTint80  BlackTint80       Gray40  BlackTint80  BlackTint80
+   content-ui-fg-tertiary       Navy60  BlackTint10  BlackTint60  WhiteTint60  BlackTint60  BlackTint60       Gray60  BlackTint60  BlackTint60       Gray60  BlackTint60  BlackTint60
         content-ui-toggle        White        White        White        White        White        White        White        White        White        White        White        White
            content-danger        Red70        Red30        Red30        Red70        Red30        Red70        Red70        Red30        Red30        Red70        Red30        Red70
           content-success      Green70      Green30      Green30      Green70      Green30      Green70      Green70      Green30      Green30      Green70      Green30      Green70
@@ -2370,16 +2370,16 @@ pride:
          color-ui-pressed  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80
            color-ui-focus        Black        Black        Black        Black        Black        Black        Black        Black        Black        Black        Black        Black
               color-ui-fg        White        White        White        White        White        White        White        White        White        White        White        White
-    color-ui-fg-secondary       Gray40       Gray40       Gray40       Navy20       Gray60       Gray40       Gray40       Gray60       Gray60       Gray40       Navy30       Gray40
-     color-ui-fg-tertiary       Gray60       Gray60       Gray60       Navy30       Gray40       Gray60       Gray60       Gray40       Gray40       Gray60       Navy20       Gray60
+    color-ui-fg-secondary       Gray40       Gray40       Gray40       Navy40       Gray60       Gray40       Gray40       Gray60       Gray60       Gray40       Navy60       Gray40
+     color-ui-fg-tertiary       Gray60       Gray60       Gray60       Navy60       Gray40       Gray60       Gray60       Gray40       Gray40       Gray60       Navy40       Gray60
           color-ui-toggle        White        White        White        White        White        White        White        White        White        White        White        White
                  image-ui        White        White        White        White        White        White        White        White        White        White        White        White
            image-ui-hover  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90  WhiteTint90
          image-ui-pressed  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80  WhiteTint80
           image-ui-accent        White        White        White        White        White        White        White        White        White        White        White        White
               image-ui-fg        Black        Black        Black        Black        Black        Black        Black        Black        Black        Black        Black        Black
-    image-ui-fg-secondary       Navy30       Navy30       Navy30       Navy30       Gray60       Gray60       Navy30       Gray60       Gray60       Gray60       Gray60       Navy30
-     image-ui-fg-tertiary       Navy20       Navy20       Navy20       Navy20       Gray40       Gray40       Navy20       Gray40       Gray40       Gray40       Navy20       Navy20
+    image-ui-fg-secondary       Navy60       Navy60       Navy60       Navy60       Gray60       Gray60       Navy60       Gray60       Gray60       Gray60       Gray60       Navy60
+     image-ui-fg-tertiary       Navy40       Navy40       Navy40       Navy40       Gray40       Gray40       Navy40       Gray40       Gray40       Gray40       Navy40       Navy40
           image-ui-toggle        White        White        White        White        White        White        White        White        White        White        White        White
                    danger          Red          Red          Red          Red          Red          Red          Red          Red          Red          Red          Red          Red
              danger-hover        Red60        Red40        Red40        Red40        Red40        Red40        Red40        Red40        Red40        Red40        Red40        Red40
@@ -2444,7 +2444,7 @@ pride:
 
 ------                        trueBlue     darkMode lowContrastC       cement   cybernetic       canary        ghost      vampire      pumpkin nuclearWhite     gothRave        pride
                     black        Black        White  191,191,191        Black   103,255,56        Black       Gray60        White    255,100,0        Black  158,120,229    117,8,135
-                    white        White     34,34,34     54,70,93        Gray9     34,34,34  250,250,200        White     34,34,34      34,16,0        White       Gray95        White
+                    white        White     34,34,34     54,70,93  233,233,233     34,34,34  250,250,200        White     34,34,34      34,16,0        White       Gray95        White
             white-on-dark        White        White  191,191,191        Black        Green        Black        Black        White    255,100,0        Black  119,201,230    254,237,6
                      navy         Navy        Black     26,39,53        Gray3        Black  255,255,232        White        Black        Black        White        Black   255,91,181
                       red          Red          Red    217,94,64          Red   103,255,56          Red          Red  136,136,136       Orange        Black     223,0,13     225,0,17
@@ -2454,31 +2454,31 @@ pride:
                      blue         Blue         Blue   82,158,204         Blue   103,255,56         Blue         Blue  136,136,136       Orange        Black   12,121,249     0,88,252
                    purple       Purple       Purple  167,125,194       Purple   103,255,56       Purple       Purple  119,119,119       Orange        Black    179,2,255    117,8,135
                      pink         Pink         Pink  239,113,200         Pink   103,255,56         Pink         Pink  156,156,156       Orange        Black    255,0,144    255,0,144
-         secondary-accent        Navy5     57,57,57    71,87,109  221,221,221     20,96,26  240,240,192          Red     56,56,56     64,24,15       Gray18     45,27,57  255,251,205
-                   follow  243,248,251     36,54,62    43,76,104  209,227,235     20,96,26  224,242,205       Gray18  136,136,136     21,36,23       Gray18      6,29,74  255,251,205
+         secondary-accent       Navy10     57,57,57    71,87,109  221,221,221     20,96,26  240,240,192          Red     56,56,56     64,24,15  208,208,208     45,27,57  255,251,205
+                   follow  243,248,251     36,54,62    43,76,104  209,227,235     20,96,26  224,242,205  208,208,208  136,136,136     21,36,23  208,208,208      6,29,74  255,251,205
         deprecated-accent         Blue         Blue   82,158,204       Gray50   103,255,56       Orange       Purple          Red       Purple  150,150,150   207,67,237     2,77,255
           accent-fg-light        White        White        White        White        White        White        White        White        White        White        White        Black
               accent-tint   BlueTint10   BlueTint10   BlueTint10    NavyTint5  GreenTint10  OrangeTint5   BlueTint10    RedTint10 PurpleTint10    NavyTint5 PurpleTint10 YellowTint10
        accent-tint-strong   BlueTint20   BlueTint20   BlueTint20   NavyTint10  GreenTint20 OrangeTint10   BlueTint20    RedTint20 PurpleTint20   NavyTint10 PurpleTint20 YellowTint20
         accent-tint-heavy   BlueTint30   BlueTint30   BlueTint30   NavyTint15  GreenTint30 OrangeTint20   BlueTint30    RedTint30 PurpleTint30   NavyTint15 PurpleTint30 YellowTint30
-             chrome-panel     Navy47.5       Gray90     Navy42.5      Navy2.5       Gray90     Yellow10      Navy1.5       Gray90       Gray90        White       Gray95  BlackTint10
-      chrome-panel-border   WhiteTint5   WhiteTint5  Transparent  Transparent  GreenTint10  Transparent      Navy2.5   WhiteTint5 OrangeTint10      Navy2.5       Gray90  Transparent
+             chrome-panel       Navy95       Gray90       Navy85        Navy5       Gray90     Yellow10        Navy3       Gray90       Gray90        White       Gray95  BlackTint10
+      chrome-panel-border   WhiteTint5   WhiteTint5  Transparent  Transparent  GreenTint10  Transparent        Navy5   WhiteTint5 OrangeTint10        Navy5       Gray90  Transparent
               chrome-tint   WhiteTint5   WhiteTint5   WhiteTint5    NavyTint5  GreenTint10   BlackTint5    NavyTint5  WhiteTint10 OrangeTint10    NavyTint5  WhiteTint10   BlackTint5
        chrome-tint-strong  WhiteTint10  WhiteTint10  WhiteTint10   NavyTint10  GreenTint20  BlackTint10   NavyTint10  WhiteTint15 OrangeTint20   NavyTint10  WhiteTint15  BlackTint10
         chrome-tint-heavy  WhiteTint15  WhiteTint15  WhiteTint15   NavyTint15  GreenTint30  BlackTint15   NavyTint15  WhiteTint20 OrangeTint30   NavyTint15  WhiteTint20  BlackTint15
-            chrome-mobile         Navy       Gray90       Navy45        White       Gray90      Yellow5        White       Gray90       Gray90        White       Gray90      Yellow5
-                chrome-fg        White        White       Navy10       Navy40        Green        Black        Black        White       Orange        Black       Blue40        White
-      chrome-fg-secondary       Navy20       Gray40       Navy20       Navy30  GreenTint60  BlackTint60       Navy30       Gray40 OrangeTint60       Navy40       Blue60  WhiteTint80
-       chrome-fg-tertiary       Navy30       Gray60       Navy30       Navy20  GreenTint40  BlackTint40       Navy20       Gray60 OrangeTint40       Navy30       Blue70  WhiteTint60
-            content-panel        White       Gray90     Navy42.5      Navy2.5       Gray90     Yellow10        White       Gray90       Gray90        White       Gray95        White
-     content-panel-border  Transparent       Gray85  Transparent  Transparent  GreenTint10  Transparent      Navy2.5   WhiteTint5 OrangeTint10      Navy2.5       Gray90  Transparent
+            chrome-mobile         Navy       Gray90       Navy90        White       Gray90      Yellow5        White       Gray90       Gray90        White       Gray90      Yellow5
+                chrome-fg        White        White       Navy20       Navy80        Green        Black        Black        White       Orange        Black       Blue40        White
+      chrome-fg-secondary       Navy40       Gray40       Navy40       Navy60  GreenTint60  BlackTint60       Navy60       Gray40 OrangeTint60       Navy80       Blue60  WhiteTint80
+       chrome-fg-tertiary       Navy60       Gray60       Navy60       Navy40  GreenTint40  BlackTint40       Navy40       Gray60 OrangeTint40       Navy60       Blue70  WhiteTint60
+            content-panel        White       Gray90       Navy85        Navy5       Gray90     Yellow10        White       Gray90       Gray90        White       Gray95        White
+     content-panel-border  Transparent       Gray85  Transparent  Transparent  GreenTint10  Transparent        Navy5   WhiteTint5 OrangeTint10        Navy5       Gray90  Transparent
              content-tint    NavyTint5   WhiteTint5   WhiteTint5    NavyTint5  GreenTint10   BlackTint5    NavyTint5  WhiteTint10 OrangeTint10    NavyTint5  WhiteTint10    NavyTint5
       content-tint-strong   NavyTint10  WhiteTint10  WhiteTint10   NavyTint10  GreenTint20  BlackTint10   NavyTint10  WhiteTint15 OrangeTint20   NavyTint10  WhiteTint15   NavyTint10
        content-tint-heavy   NavyTint15  WhiteTint15  WhiteTint15   NavyTint15  GreenTint30  BlackTint15   NavyTint15  WhiteTint20 OrangeTint30   NavyTint15  WhiteTint20   NavyTint15
- content-mobile-container      Navy1.5       Gray95      Navy1.5      Navy2.5       Gray95      Navy1.5      Navy1.5       Gray95       Gray95      Navy1.5       Gray95      Navy1.5
-               content-fg        Black        White       Navy10       Navy40        Green        Black        Black        White       Orange        Black     Purple30        Black
-     content-fg-secondary       Navy30       Gray40       Navy20       Navy30  GreenTint60  BlackTint60       Navy30       Gray40 OrangeTint60       Navy40     Purple40       Navy30
-      content-fg-tertiary       Navy20       Gray60       Navy30       Navy20  GreenTint40  BlackTint40       Navy20       Gray60 OrangeTint40       Navy30       Purple       Navy20
+ content-mobile-container        Navy3       Gray95        Navy3        Navy5       Gray95        Navy3        Navy3       Gray95       Gray95        Navy3       Gray95        Navy3
+               content-fg        Black        White       Navy20       Navy80        Green        Black        Black        White       Orange        Black     Purple30        Black
+     content-fg-secondary       Navy60       Gray40       Navy40       Navy60  GreenTint60  BlackTint60       Navy60       Gray40 OrangeTint60       Navy80     Purple40       Navy60
+      content-fg-tertiary       Navy40       Gray60       Navy60       Navy40  GreenTint40  BlackTint40       Navy40       Gray60 OrangeTint40       Navy60       Purple       Navy40
        color-panel-border  Transparent        Black  Transparent  Transparent        Black  Transparent  Transparent        Black        Black  Transparent        Black  Transparent
                color-tint  BlackTint10
         color-tint-strong  BlackTint15
@@ -2488,20 +2488,20 @@ pride:
                image-tint  BlackTint40  BlackTint40  BlackTint40  BlackTint20  BlackTint20  BlackTint20  BlackTint40  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20
         image-tint-strong  BlackTint50  BlackTint50  BlackTint50  BlackTint30  BlackTint30  BlackTint30  BlackTint50  BlackTint30  BlackTint30  BlackTint30  BlackTint30  BlackTint30
          image-tint-heavy  BlackTint60  BlackTint60  BlackTint60  BlackTint40  BlackTint40  BlackTint40  BlackTint60  BlackTint40  BlackTint40  BlackTint40  BlackTint40  BlackTint40
-                side-menu         Navy       Gray95       Navy45      Navy2.5       Gray95      Yellow5      Navy1.5       Gray95       Gray95        White        Black  BlackTint10
+                side-menu         Navy       Gray95       Navy90        Navy5       Gray95      Yellow5        Navy3       Gray95       Gray95        White        Black  BlackTint10
          side-menu-shadow  WhiteTint10  WhiteTint10  WhiteTint10   NavyTint10  GreenTint10   BlackTint5    NavyTint5   WhiteTint5   WhiteTint5    NavyTint5  WhiteTint10  Transparent
           top-menu-shadow  WhiteTint10  WhiteTint10  WhiteTint10    NavyTint5  GreenTint10   BlackTint5    NavyTint5   WhiteTint5   WhiteTint5    NavyTint5  WhiteTint10  BlackTint10
-                    modal        White       Gray90     Navy42.5        White       Gray90      Yellow5        White       Gray90       Gray90        White       Gray95        White
-             modal-border   NavyTint10       Gray85       Navy40   NavyTint10  GreenTint10  BlackTint10   NavyTint10       Gray85 OrangeTint10   NavyTint10       Gray90  BlackTint10
+                    modal        White       Gray90       Navy85        White       Gray90      Yellow5        White       Gray90       Gray90        White       Gray95        White
+             modal-border   NavyTint10       Gray85       Navy80   NavyTint10  GreenTint10  BlackTint10   NavyTint10       Gray85 OrangeTint10   NavyTint10       Gray90  BlackTint10
                  tool-tip        Black        White        Black        Black        White        Black        Black        White        White        Black        White        Black
             tool-tip-text        White        Black        White        White        Black        White        White        Black        Black        White        Black        White
              overlay-tint   NavyTint20  BlackTint20   NavyTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20  BlackTint20
       overlay-tint-strong   NavyTint60  BlackTint60   NavyTint40  BlackTint40  BlackTint40  BlackTint40  BlackTint60  BlackTint40  BlackTint40  BlackTint40  BlackTint40  BlackTint40
        overlay-tint-heavy   NavyTint80  BlackTint80   NavyTint90  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80
-              unread-tint   BlueTint10   BlueTint10   BlueTint10        Navy5  GreenTint10 OrangeTint10   BlueTint10    RedTint10 OrangeTint10   BlueTint10   BlueTint10 OrangeTint10
-        unread-tint-hover   BlueTint20   BlueTint20   BlueTint20       Navy10  GreenTint20 OrangeTint20   BlueTint20    RedTint20 OrangeTint20   BlueTint20   BlueTint20 OrangeTint20
-   chrome-ui-fg-secondary  BlackTint80  BlackTint80  BlackTint80  WhiteTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80       Navy20  BlackTint80  BlackTint80
-    chrome-ui-fg-tertiary  BlackTint60  BlackTint60  BlackTint60  WhiteTint60  BlackTint60  BlackTint60  BlackTint60  BlackTint60  BlackTint60       Navy30  BlackTint60  BlackTint60
+              unread-tint   BlueTint10   BlueTint10   BlueTint10       Navy10  GreenTint10 OrangeTint10   BlueTint10    RedTint10 OrangeTint10   BlueTint10   BlueTint10 OrangeTint10
+        unread-tint-hover   BlueTint20   BlueTint20   BlueTint20       Navy20  GreenTint20 OrangeTint20   BlueTint20    RedTint20 OrangeTint20   BlueTint20   BlueTint20 OrangeTint20
+   chrome-ui-fg-secondary  BlackTint80  BlackTint80  BlackTint80  WhiteTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80  BlackTint80       Navy40  BlackTint80  BlackTint80
+    chrome-ui-fg-tertiary  BlackTint60  BlackTint60  BlackTint60  WhiteTint60  BlackTint60  BlackTint60  BlackTint60  BlackTint60  BlackTint60       Navy60  BlackTint60  BlackTint60
               chrome-blue       Blue30       Blue30       Blue30       Blue70      Green30       Blue70       Blue70        Red30     Purple30       Blue70       Blue30       Blue30
             chrome-purple     Purple30     Purple30     Purple30     Purple70      Green30     Purple70     Purple70        Red30     Purple30     Purple70     Purple30     Purple30
               chrome-pink       Pink30       Pink30       Pink30       Pink70      Green30       Pink70       Pink70        Red30     Purple30       Pink70       Pink30       Pink30
@@ -2509,13 +2509,13 @@ pride:
             chrome-orange     Orange30     Orange30     Orange30     Orange70      Green30     Orange70     Orange70        Red30     Purple30     Orange70     Orange30     Orange30
             chrome-yellow     Yellow30     Yellow30     Yellow30     Yellow70      Green30     Yellow70     Yellow70        Red30     Purple30     Yellow70     Yellow30     Yellow30
              chrome-green      Green30      Green30      Green30      Green70      Green30      Green70      Green70        Red30     Purple30      Green70      Green30      Green30
-               content-ui         Navy         Blue         Blue       Navy30        Green       Orange        Black          Red       Orange        Black       Purple         Pink
-         content-ui-hover       Navy45       Blue40       Blue40       Navy25      Green40     Orange40       Gray90        Red40     Orange40       Gray90     Purple40       Pink40
-       content-ui-pressed       Navy40       Blue30       Blue30       Navy20      Green30     Orange30       Gray80        Red30     Orange30       Gray80     Purple30       Pink30
-         content-ui-focus         Blue         Blue         Blue       Navy30        Green       Orange         Blue          Red       Orange        Black       Purple         Pink
+               content-ui         Navy         Blue         Blue       Navy60        Green       Orange        Black          Red       Orange        Black       Purple         Pink
+         content-ui-hover       Navy90       Blue40       Blue40       Navy50      Green40     Orange40       Gray90        Red40     Orange40       Gray90     Purple40       Pink40
+       content-ui-pressed       Navy80       Blue30       Blue30       Navy40      Green30     Orange30       Gray80        Red30     Orange30       Gray80     Purple30       Pink30
+         content-ui-focus         Blue         Blue         Blue       Navy60        Green       Orange         Blue          Red       Orange        Black       Purple         Pink
             content-ui-fg        White        Black        Black        White        Black        Black        White        Black        Black        White        Black        Black
-  content-ui-fg-secondary       Navy20  BlackTint10  BlackTint80  WhiteTint80  BlackTint80  BlackTint80       Gray40  BlackTint80  BlackTint80       Gray40  BlackTint80  BlackTint80
-   content-ui-fg-tertiary       Navy30  BlackTint10  BlackTint60  WhiteTint60  BlackTint60  BlackTint60       Gray60  BlackTint60  BlackTint60       Gray60  BlackTint60  BlackTint60
+  content-ui-fg-secondary       Navy40  BlackTint10  BlackTint80  WhiteTint80  BlackTint80  BlackTint80       Gray40  BlackTint80  BlackTint80       Gray40  BlackTint80  BlackTint80
+   content-ui-fg-tertiary       Navy60  BlackTint10  BlackTint60  WhiteTint60  BlackTint60  BlackTint60       Gray60  BlackTint60  BlackTint60       Gray60  BlackTint60  BlackTint60
              content-blue       Blue70       Blue30       Blue30       Blue70      Green30       Blue70       Blue70        Red30     Orange30       Blue70       Blue30       Blue70
            content-purple     Purple70     Purple30     Purple30     Purple70      Green30     Purple70     Purple70        Red30     Orange30     Purple70     Purple30     Purple70
              content-pink       Pink70       Pink30       Pink30       Pink70      Green30       Pink70       Pink70        Red30     Orange30       Pink70       Pink30       Pink70
@@ -2524,11 +2524,11 @@ pride:
            content-yellow     Yellow70     Yellow30     Yellow30     Yellow70      Green30     Yellow70     Yellow70        Red30     Orange30     Yellow70     Yellow30     Yellow70
             content-green      Green70      Green30      Green30      Green70      Green30      Green70      Green70        Red30     Orange30      Green70      Green30      Green70
            color-ui-hover  BlackTint90
-    color-ui-fg-secondary       Gray40       Gray40       Gray40       Navy20       Gray60       Gray40       Gray40       Gray60       Gray60       Gray40       Navy30       Gray40
-     color-ui-fg-tertiary       Gray60       Gray60       Gray60       Navy30       Gray40       Gray60       Gray60       Gray40       Gray40       Gray60       Navy20       Gray60
+    color-ui-fg-secondary       Gray40       Gray40       Gray40       Navy40       Gray60       Gray40       Gray40       Gray60       Gray60       Gray40       Navy60       Gray40
+     color-ui-fg-tertiary       Gray60       Gray60       Gray60       Navy60       Gray40       Gray60       Gray60       Gray40       Gray40       Gray60       Navy40       Gray60
            image-ui-hover  WhiteTint90
-    image-ui-fg-secondary       Navy30       Navy30       Navy30       Navy30       Gray60       Gray60       Navy30       Gray60       Gray60       Gray60       Gray60       Navy30
-     image-ui-fg-tertiary       Navy20       Navy20       Navy20       Navy20       Gray40       Gray40       Navy20       Gray40       Gray40       Gray40       Navy20       Navy20
+    image-ui-fg-secondary       Navy60       Navy60       Navy60       Navy60       Gray60       Gray60       Navy60       Gray60       Gray60       Gray60       Gray60       Navy60
+     image-ui-fg-tertiary       Navy40       Navy40       Navy40       Navy40       Gray40       Gray40       Navy40       Gray40       Gray40       Gray40       Navy40       Navy40
                    danger          Red
              danger-hover        Red60        Red40        Red40        Red40        Red40        Red40        Red40        Red40        Red40        Red40        Red40        Red40
            danger-pressed        Red70        Red30        Red30        Red30        Red30        Red30        Red30        Red30        Red30        Red30        Red30        Red30
@@ -2589,12 +2589,12 @@ pride:
          brand-green-tint  GreenTint10  GreenTint10  GreenTint10  GreenTint10  GreenTint10  GreenTint10  GreenTint10    RedTint10 PurpleTint10  GreenTint10  GreenTint10  GreenTint10
   brand-green-tint-strong  GreenTint20  GreenTint20  GreenTint20  GreenTint20  GreenTint20  GreenTint20  GreenTint20    RedTint20 PurpleTint20  GreenTint20  GreenTint20  GreenTint20
    brand-green-tint-heavy  GreenTint30  GreenTint30  GreenTint30  GreenTint30  GreenTint30  GreenTint30  GreenTint30    RedTint30 PurpleTint30  GreenTint30  GreenTint30  GreenTint30
-             accent-hover       Blue40       Blue40       Blue40       Navy25      Green40     Orange40       Blue40        Red40     Purple40       Gray90     Purple40     Yellow40
-          chrome-ui-hover       Blue40       Blue40       Blue40       Navy25      Green40     Orange40       Blue40        Red40     Purple40       Gray90     Purple40     Yellow40
-           accent-pressed       Blue30       Blue30       Blue30       Navy20      Green30     Orange30       Blue30        Red30     Purple30       Gray80     Purple30     Yellow30
-        chrome-ui-pressed       Blue30       Blue30       Blue30       Navy20      Green30     Orange30       Blue30        Red30     Purple30       Gray80     Purple30     Yellow30
-                   chrome         Navy       Gray95       Navy45        White       Gray95      Yellow5        White       Gray95       Gray95        White        Black         Pink
-                 top-menu         Navy       Gray95       Navy45        White       Gray95      Yellow5        White       Gray95       Gray95        White        Black         Pink
+             accent-hover       Blue40       Blue40       Blue40       Navy50      Green40     Orange40       Blue40        Red40     Purple40       Gray90     Purple40     Yellow40
+          chrome-ui-hover       Blue40       Blue40       Blue40       Navy50      Green40     Orange40       Blue40        Red40     Purple40       Gray90     Purple40     Yellow40
+           accent-pressed       Blue30       Blue30       Blue30       Navy40      Green30     Orange30       Blue30        Red30     Purple30       Gray80     Purple30     Yellow30
+        chrome-ui-pressed       Blue30       Blue30       Blue30       Navy40      Green30     Orange30       Blue30        Red30     Purple30       Gray80     Purple30     Yellow30
+                   chrome         Navy       Gray95       Navy90        White       Gray95      Yellow5        White       Gray95       Gray95        White        Black         Pink
+                 top-menu         Navy       Gray95       Navy90        White       Gray95      Yellow5        White       Gray95       Gray95        White        Black         Pink
        color-fg-secondary  BlackTint80
          color-ui-pressed  BlackTint80
   color-fg-light-tertiary  WhiteTint60
@@ -2605,9 +2605,9 @@ pride:
           content-success      Green70      Green30      Green30      Green70      Green30      Green70      Green70      Green30      Green30      Green70      Green30      Green70
          chrome-education     Purple30     Purple30     Purple30     Purple70     Purple30     Purple70     Purple70     Purple30     Purple30     Purple70     Purple30     Purple70
         content-education     Purple70     Purple30     Purple30     Purple70     Purple30     Purple70     Purple70     Purple30     Purple30     Purple70     Purple30     Purple70
-                   accent         Blue         Blue         Blue       Navy30        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
-                chrome-ui         Blue         Blue         Blue       Navy30        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
-          chrome-ui-focus         Blue         Blue         Blue       Navy30        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
+                   accent         Blue         Blue         Blue       Navy60        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
+                chrome-ui         Blue         Blue         Blue       Navy60        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
+          chrome-ui-focus         Blue         Blue         Blue       Navy60        Green       Orange         Blue          Red       Purple        Black       Purple       Yellow
                 accent-fg        Black        Black        Black        White        Black        Black        Black        Black        Black        White        Black        Black
                badge-text        Black        Black        Black        White        Black        Black        Black        Black        Black        White        Black        Black
              chrome-ui-fg        Black        Black        Black        White        Black        Black        Black        Black        Black        White        Black        Black
@@ -2632,7 +2632,7 @@ pride:
 
 ------                        trueBlue ❔ generated              darkMode ❔ generated          lowContrastC ❔ generated                cement ❔ generated            cybernetic ❔ generated                canary ❔ generated                 ghost ❔ generated               vampire ❔ generated               pumpkin ❔ generated          nuclearWhite ❔ generated              gothRave ❔ generated                 pride ❔ generated         
                     black        Black ✅ Black                     White ✅ White               191,191,191 ✅ 191,191,191               Black ✅ Black                103,255,56 ✅ 103,255,56                Black ✅ Black                    Gray60 ✅ Gray60                    White ✅ White                 255,100,0 ✅ 255,100,0                 Black ✅ Black               158,120,229 ✅ 158,120,229           117,8,135 ✅ 117,8,135         
-                    white        White ✅ White                  34,34,34 ✅ 34,34,34               54,70,93 ✅ 54,70,93                  Gray9 ✅ Gray9                  34,34,34 ✅ 34,34,34            250,250,200 ✅ 250,250,200               White ✅ White                  34,34,34 ✅ 34,34,34                34,16,0 ✅ 34,16,0                   White ✅ White                    Gray95 ✅ Gray95                    White ✅ White             
+                    white        White ✅ White                  34,34,34 ✅ 34,34,34               54,70,93 ✅ 54,70,93            233,233,233 ✅ 233,233,233            34,34,34 ✅ 34,34,34            250,250,200 ✅ 250,250,200               White ✅ White                  34,34,34 ✅ 34,34,34                34,16,0 ✅ 34,16,0                   White ✅ White                    Gray95 ✅ Gray95                    White ✅ White             
             white-on-dark        White ✅ White                     White ✅ White               191,191,191 ✅ 191,191,191               Black ✅ Black                     Green ✅ Green                     Black ✅ Black                     Black ✅ Black                     White ✅ White                 255,100,0 ✅ 255,100,0                 Black ✅ Black               119,201,230 ✅ 119,201,230           254,237,6 ✅ 254,237,6         
                      navy         Navy ✅ Navy                      Black ✅ Black                  26,39,53 ✅ 26,39,53                  Gray3 ✅ Gray3                     Black ✅ Black               255,255,232 ✅ 255,255,232               White ✅ White                     Black ✅ Black                     Black ✅ Black                     White ✅ White                     Black ✅ Black                255,91,181 ✅ 255,91,181        
                       red          Red ✅ Red                         Red ✅ Red                   217,94,64 ✅ 217,94,64                   Red ✅ Red                  103,255,56 ✅ 103,255,56                  Red ✅ Red                         Red ✅ Red                 136,136,136 ✅ 136,136,136              Orange ✅ Orange                    Black ✅ Black                  223,0,13 ✅ 223,0,13               225,0,17 ✅ 225,0,17          
@@ -2642,36 +2642,36 @@ pride:
                      blue         Blue ✅ Blue                       Blue ✅ Blue                 82,158,204 ✅ 82,158,204                 Blue ✅ Blue                 103,255,56 ✅ 103,255,56                 Blue ✅ Blue                       Blue ✅ Blue                136,136,136 ✅ 136,136,136              Orange ✅ Orange                    Black ✅ Black                12,121,249 ✅ 12,121,249             0,88,252 ✅ 0,88,252          
                    purple       Purple ✅ Purple                   Purple ✅ Purple              167,125,194 ✅ 167,125,194              Purple ✅ Purple               103,255,56 ✅ 103,255,56               Purple ✅ Purple                   Purple ✅ Purple              119,119,119 ✅ 119,119,119              Orange ✅ Orange                    Black ✅ Black                 179,2,255 ✅ 179,2,255             117,8,135 ✅ 117,8,135         
                      pink         Pink ✅ Pink                       Pink ✅ Pink                239,113,200 ✅ 239,113,200                Pink ✅ Pink                 103,255,56 ✅ 103,255,56                 Pink ✅ Pink                       Pink ✅ Pink                156,156,156 ✅ 156,156,156              Orange ✅ Orange                    Black ✅ Black                 255,0,144 ✅ 255,0,144             255,0,144 ✅ 255,0,144         
-         secondary-accent        Navy5 ✅ Navy5                  57,57,57 ✅ 57,57,57              71,87,109 ✅ 71,87,109           221,221,221 ✅ 221,221,221            20,96,26 ✅ 20,96,26            240,240,192 ✅ 240,240,192                 Red ✅ Red                    56,56,56 ✅ 56,56,56               64,24,15 ✅ 64,24,15                 Gray18 ✅ Gray18                 45,27,57 ✅ 45,27,57            255,251,205 ✅ 255,251,205       
-                   follow  243,248,251 ✅ 243,248,251            36,54,62 ✅ 36,54,62              43,76,104 ✅ 43,76,104           209,227,235 ✅ 209,227,235            20,96,26 ✅ 20,96,26            224,242,205 ✅ 224,242,205              Gray18 ✅ Gray18              136,136,136 ✅ 136,136,136            21,36,23 ✅ 21,36,23                 Gray18 ✅ Gray18                  6,29,74 ✅ 6,29,74             255,251,205 ✅ 255,251,205       
+         secondary-accent       Navy10 ✅ Navy10                 57,57,57 ✅ 57,57,57              71,87,109 ✅ 71,87,109           221,221,221 ✅ 221,221,221            20,96,26 ✅ 20,96,26            240,240,192 ✅ 240,240,192                 Red ✅ Red                    56,56,56 ✅ 56,56,56               64,24,15 ✅ 64,24,15            208,208,208 ✅ 208,208,208            45,27,57 ✅ 45,27,57            255,251,205 ✅ 255,251,205       
+                   follow  243,248,251 ✅ 243,248,251            36,54,62 ✅ 36,54,62              43,76,104 ✅ 43,76,104           209,227,235 ✅ 209,227,235            20,96,26 ✅ 20,96,26            224,242,205 ✅ 224,242,205         208,208,208 ✅ 208,208,208         136,136,136 ✅ 136,136,136            21,36,23 ✅ 21,36,23            208,208,208 ✅ 208,208,208             6,29,74 ✅ 6,29,74             255,251,205 ✅ 255,251,205       
         deprecated-accent         Blue ✅ Blue                       Blue ✅ Blue                 82,158,204 ✅ 82,158,204               Gray50 ✅ Gray50               103,255,56 ✅ 103,255,56               Orange ✅ Orange                   Purple ✅ Purple                      Red ✅ Red                      Purple ✅ Purple              150,150,150 ✅ 150,150,150          207,67,237 ✅ 207,67,237             2,77,255 ✅ 2,77,255          
-                   accent         Blue ✅ Blue                       Blue ✅ Blue                       Blue ✅ Blue                     Navy30 ✅ Navy30                    Green ✅ Green                    Orange ✅ Orange                     Blue ✅ Blue                        Red ✅ Red                      Purple ✅ Purple                    Black ✅ Black                    Purple ✅ Purple                   Yellow ✅ Yellow            
+                   accent         Blue ✅ Blue                       Blue ✅ Blue                       Blue ✅ Blue                     Navy60 ✅ Navy60                    Green ✅ Green                    Orange ✅ Orange                     Blue ✅ Blue                        Red ✅ Red                      Purple ✅ Purple                    Black ✅ Black                    Purple ✅ Purple                   Yellow ✅ Yellow            
                 accent-fg        Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     White ❌ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     White ❌ Black                     Black ✅ Black                     Black ✅ Black             
           accent-fg-light        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     Black ❌ White             
-             accent-hover       Blue40 ✅ Blue40                   Blue40 ✅ Blue40                   Blue40 ✅ Blue40                   Navy25 ❌ Navy3040                Green40 ✅ Green40                Orange40 ✅ Orange40                 Blue40 ✅ Blue40                    Red40 ✅ Red40                  Purple40 ✅ Purple40                 Gray90 ❌ Black40                Purple40 ✅ Purple40               Yellow40 ✅ Yellow40          
-           accent-pressed       Blue30 ✅ Blue30                   Blue30 ✅ Blue30                   Blue30 ✅ Blue30                   Navy20 ❌ Navy3030                Green30 ✅ Green30                Orange30 ✅ Orange30                 Blue30 ✅ Blue30                    Red30 ✅ Red30                  Purple30 ✅ Purple30                 Gray80 ❌ Black30                Purple30 ✅ Purple30               Yellow30 ✅ Yellow30          
+             accent-hover       Blue40 ✅ Blue40                   Blue40 ✅ Blue40                   Blue40 ✅ Blue40                   Navy50 ❌ Navy6040                Green40 ✅ Green40                Orange40 ✅ Orange40                 Blue40 ✅ Blue40                    Red40 ✅ Red40                  Purple40 ✅ Purple40                 Gray90 ❌ Black40                Purple40 ✅ Purple40               Yellow40 ✅ Yellow40          
+           accent-pressed       Blue30 ✅ Blue30                   Blue30 ✅ Blue30                   Blue30 ✅ Blue30                   Navy40 ❌ Navy6030                Green30 ✅ Green30                Orange30 ✅ Orange30                 Blue30 ✅ Blue30                    Red30 ✅ Red30                  Purple30 ✅ Purple30                 Gray80 ❌ Black30                Purple30 ✅ Purple30               Yellow30 ✅ Yellow30          
               accent-tint   BlueTint10 ✅ BlueTint10           BlueTint10 ✅ BlueTint10           BlueTint10 ✅ BlueTint10            NavyTint5 ❌ NavyTint10          GreenTint10 ✅ GreenTint10         OrangeTint5 ❌ OrangeTint10         BlueTint10 ✅ BlueTint10            RedTint10 ✅ RedTint10          PurpleTint10 ✅ PurpleTint10          NavyTint5 ❌ NavyTint10         PurpleTint10 ✅ PurpleTint10       YellowTint10 ✅ YellowTint10      
        accent-tint-strong   BlueTint20 ✅ BlueTint20           BlueTint20 ✅ BlueTint20           BlueTint20 ✅ BlueTint20           NavyTint10 ❌ NavyTint20          GreenTint20 ✅ GreenTint20        OrangeTint10 ❌ OrangeTint20         BlueTint20 ✅ BlueTint20            RedTint20 ✅ RedTint20          PurpleTint20 ✅ PurpleTint20         NavyTint10 ❌ NavyTint20         PurpleTint20 ✅ PurpleTint20       YellowTint20 ✅ YellowTint20      
         accent-tint-heavy   BlueTint30 ✅ BlueTint30           BlueTint30 ✅ BlueTint30           BlueTint30 ✅ BlueTint30           NavyTint15 ❌ NavyTint30          GreenTint30 ✅ GreenTint30        OrangeTint20 ❌ OrangeTint30         BlueTint30 ✅ BlueTint30            RedTint30 ✅ RedTint30          PurpleTint30 ✅ PurpleTint30         NavyTint15 ❌ NavyTint30         PurpleTint30 ✅ PurpleTint30       YellowTint30 ✅ YellowTint30      
-                   chrome         Navy ✅ Navy                     Gray95 ✅ Gray95                   Navy45 ✅ Navy45                    White ✅ White                    Gray95 ✅ Gray95                  Yellow5 ✅ Yellow5                   White ✅ White                    Gray95 ✅ Gray95                   Gray95 ✅ Gray95                    White ✅ White                     Black ✅ Black                      Pink ✅ Pink              
-             chrome-panel     Navy47.5 ✅ Navy47.5                 Gray90 ✅ Gray90                 Navy42.5 ✅ Navy42.5                Navy2.5 ✅ Navy2.5                  Gray90 ✅ Gray90                 Yellow10 ✅ Yellow10                Navy1.5 ✅ Navy1.5                  Gray90 ✅ Gray90                   Gray90 ✅ Gray90                    White ✅ White                    Gray95 ✅ Gray95              BlackTint10 ✅ BlackTint10       
-      chrome-panel-border   WhiteTint5 ❔                      WhiteTint5 ❔                     Transparent ❔                     Transparent ❔                     GreenTint10 ❔                     Transparent ❔                         Navy2.5 ❔                      WhiteTint5 ❔                    OrangeTint10 ❔                         Navy2.5 ❔                          Gray90 ❔                     Transparent ❔                   
+                   chrome         Navy ✅ Navy                     Gray95 ✅ Gray95                   Navy90 ✅ Navy90                    White ✅ White                    Gray95 ✅ Gray95                  Yellow5 ✅ Yellow5                   White ✅ White                    Gray95 ✅ Gray95                   Gray95 ✅ Gray95                    White ✅ White                     Black ✅ Black                      Pink ✅ Pink              
+             chrome-panel       Navy95 ✅ Navy95                   Gray90 ✅ Gray90                   Navy85 ✅ Navy85                    Navy5 ✅ Navy5                    Gray90 ✅ Gray90                 Yellow10 ✅ Yellow10                  Navy3 ✅ Navy3                    Gray90 ✅ Gray90                   Gray90 ✅ Gray90                    White ✅ White                    Gray95 ✅ Gray95              BlackTint10 ✅ BlackTint10       
+      chrome-panel-border   WhiteTint5 ❔                      WhiteTint5 ❔                     Transparent ❔                     Transparent ❔                     GreenTint10 ❔                     Transparent ❔                           Navy5 ❔                      WhiteTint5 ❔                    OrangeTint10 ❔                           Navy5 ❔                          Gray90 ❔                     Transparent ❔                   
               chrome-tint   WhiteTint5 ✅ WhiteTint5           WhiteTint5 ✅ WhiteTint5           WhiteTint5 ✅ WhiteTint5            NavyTint5 ✅ NavyTint5           GreenTint10 ❌ GreenTint5           BlackTint5 ✅ BlackTint5            NavyTint5 ✅ NavyTint5           WhiteTint10 ❌ WhiteTint5         OrangeTint10 ❌ OrangeTint5           NavyTint5 ✅ NavyTint5           WhiteTint10 ❌ WhiteTint5           BlackTint5 ✅ BlackTint5        
        chrome-tint-strong  WhiteTint10 ✅ WhiteTint10         WhiteTint10 ✅ WhiteTint10         WhiteTint10 ✅ WhiteTint10          NavyTint10 ✅ NavyTint10          GreenTint20 ❌ GreenTint10         BlackTint10 ✅ BlackTint10          NavyTint10 ✅ NavyTint10          WhiteTint15 ❌ WhiteTint10        OrangeTint20 ❌ OrangeTint10         NavyTint10 ✅ NavyTint10          WhiteTint15 ❌ WhiteTint10         BlackTint10 ✅ BlackTint10       
         chrome-tint-heavy  WhiteTint15 ✅ WhiteTint15         WhiteTint15 ✅ WhiteTint15         WhiteTint15 ✅ WhiteTint15          NavyTint15 ✅ NavyTint15          GreenTint30 ❌ GreenTint15         BlackTint15 ✅ BlackTint15          NavyTint15 ✅ NavyTint15          WhiteTint20 ❌ WhiteTint15        OrangeTint30 ❌ OrangeTint15         NavyTint15 ✅ NavyTint15          WhiteTint20 ❌ WhiteTint15         BlackTint15 ✅ BlackTint15       
-            chrome-mobile         Navy ❌ Navy47.5                 Gray90 ✅ Gray90                   Navy45 ❌ Navy42.5                  White ❌ Navy2.5                  Gray90 ✅ Gray90                  Yellow5 ❌ Yellow10                  White ❌ Navy1.5                  Gray90 ✅ Gray90                   Gray90 ✅ Gray90                    White ✅ White                    Gray90 ❌ Gray95                  Yellow5 ❌ BlackTint10       
-                chrome-fg        White ❔                           White ❔                          Navy10 ❔                          Navy40 ❔                           Green ❔                           Black ❔                           Black ❔                           White ❔                          Orange ❔                           Black ❔                          Blue40 ❔                           White ❔                   
-      chrome-fg-secondary       Navy20 ❔                          Gray40 ❔                          Navy20 ❔                          Navy30 ❔                     GreenTint60 ❔                     BlackTint60 ❔                          Navy30 ❔                          Gray40 ❔                    OrangeTint60 ❔                          Navy40 ❔                          Blue60 ❔                     WhiteTint80 ❔                   
-       chrome-fg-tertiary       Navy30 ❔                          Gray60 ❔                          Navy30 ❔                          Navy20 ❔                     GreenTint40 ❔                     BlackTint40 ❔                          Navy20 ❔                          Gray60 ❔                    OrangeTint40 ❔                          Navy30 ❔                          Blue70 ❔                     WhiteTint60 ❔                   
-            content-panel        White ❌ Navy47.5                 Gray90 ✅ Gray90                 Navy42.5 ✅ Navy42.5                Navy2.5 ✅ Navy2.5                  Gray90 ✅ Gray90                 Yellow10 ✅ Yellow10                  White ❌ Navy1.5                  Gray90 ✅ Gray90                   Gray90 ✅ Gray90                    White ✅ White                    Gray95 ✅ Gray95                    White ❌ BlackTint10       
-     content-panel-border  Transparent ❔                          Gray85 ❔                     Transparent ❔                     Transparent ❔                     GreenTint10 ❔                     Transparent ❔                         Navy2.5 ❔                      WhiteTint5 ❔                    OrangeTint10 ❔                         Navy2.5 ❔                          Gray90 ❔                     Transparent ❔                   
+            chrome-mobile         Navy ❌ Navy95                   Gray90 ✅ Gray90                   Navy90 ❌ Navy85                    White ❌ Navy5                    Gray90 ✅ Gray90                  Yellow5 ❌ Yellow10                  White ❌ Navy3                    Gray90 ✅ Gray90                   Gray90 ✅ Gray90                    White ✅ White                    Gray90 ❌ Gray95                  Yellow5 ❌ BlackTint10       
+                chrome-fg        White ❔                           White ❔                          Navy20 ❔                          Navy80 ❔                           Green ❔                           Black ❔                           Black ❔                           White ❔                          Orange ❔                           Black ❔                          Blue40 ❔                           White ❔                   
+      chrome-fg-secondary       Navy40 ❔                          Gray40 ❔                          Navy40 ❔                          Navy60 ❔                     GreenTint60 ❔                     BlackTint60 ❔                          Navy60 ❔                          Gray40 ❔                    OrangeTint60 ❔                          Navy80 ❔                          Blue60 ❔                     WhiteTint80 ❔                   
+       chrome-fg-tertiary       Navy60 ❔                          Gray60 ❔                          Navy60 ❔                          Navy40 ❔                     GreenTint40 ❔                     BlackTint40 ❔                          Navy40 ❔                          Gray60 ❔                    OrangeTint40 ❔                          Navy60 ❔                          Blue70 ❔                     WhiteTint60 ❔                   
+            content-panel        White ❌ Navy95                   Gray90 ✅ Gray90                   Navy85 ✅ Navy85                    Navy5 ✅ Navy5                    Gray90 ✅ Gray90                 Yellow10 ✅ Yellow10                  White ❌ Navy3                    Gray90 ✅ Gray90                   Gray90 ✅ Gray90                    White ✅ White                    Gray95 ✅ Gray95                    White ❌ BlackTint10       
+     content-panel-border  Transparent ❔                          Gray85 ❔                     Transparent ❔                     Transparent ❔                     GreenTint10 ❔                     Transparent ❔                           Navy5 ❔                      WhiteTint5 ❔                    OrangeTint10 ❔                           Navy5 ❔                          Gray90 ❔                     Transparent ❔                   
              content-tint    NavyTint5 ❔                      WhiteTint5 ❔                      WhiteTint5 ❔                       NavyTint5 ❔                     GreenTint10 ❔                      BlackTint5 ❔                       NavyTint5 ❔                     WhiteTint10 ❔                    OrangeTint10 ❔                       NavyTint5 ❔                     WhiteTint10 ❔                       NavyTint5 ❔                   
       content-tint-strong   NavyTint10 ❔                     WhiteTint10 ❔                     WhiteTint10 ❔                      NavyTint10 ❔                     GreenTint20 ❔                     BlackTint10 ❔                      NavyTint10 ❔                     WhiteTint15 ❔                    OrangeTint20 ❔                      NavyTint10 ❔                     WhiteTint15 ❔                      NavyTint10 ❔                   
        content-tint-heavy   NavyTint15 ❔                     WhiteTint15 ❔                     WhiteTint15 ❔                      NavyTint15 ❔                     GreenTint30 ❔                     BlackTint15 ❔                      NavyTint15 ❔                     WhiteTint20 ❔                    OrangeTint30 ❔                      NavyTint15 ❔                     WhiteTint20 ❔                      NavyTint15 ❔                   
- content-mobile-container      Navy1.5 ❔                          Gray95 ❔                         Navy1.5 ❔                         Navy2.5 ❔                          Gray95 ❔                         Navy1.5 ❔                         Navy1.5 ❔                          Gray95 ❔                          Gray95 ❔                         Navy1.5 ❔                          Gray95 ❔                         Navy1.5 ❔                   
-               content-fg        Black ❔                           White ❔                          Navy10 ❔                          Navy40 ❔                           Green ❔                           Black ❔                           Black ❔                           White ❔                          Orange ❔                           Black ❔                        Purple30 ❔                           Black ❔                   
-     content-fg-secondary       Navy30 ❔                          Gray40 ❔                          Navy20 ❔                          Navy30 ❔                     GreenTint60 ❔                     BlackTint60 ❔                          Navy30 ❔                          Gray40 ❔                    OrangeTint60 ❔                          Navy40 ❔                        Purple40 ❔                          Navy30 ❔                   
-      content-fg-tertiary       Navy20 ❔                          Gray60 ❔                          Navy30 ❔                          Navy20 ❔                     GreenTint40 ❔                     BlackTint40 ❔                          Navy20 ❔                          Gray60 ❔                    OrangeTint40 ❔                          Navy30 ❔                          Purple ❔                          Navy20 ❔                   
+ content-mobile-container        Navy3 ❔                          Gray95 ❔                           Navy3 ❔                           Navy5 ❔                          Gray95 ❔                           Navy3 ❔                           Navy3 ❔                          Gray95 ❔                          Gray95 ❔                           Navy3 ❔                          Gray95 ❔                           Navy3 ❔                   
+               content-fg        Black ❔                           White ❔                          Navy20 ❔                          Navy80 ❔                           Green ❔                           Black ❔                           Black ❔                           White ❔                          Orange ❔                           Black ❔                        Purple30 ❔                           Black ❔                   
+     content-fg-secondary       Navy60 ❔                          Gray40 ❔                          Navy40 ❔                          Navy60 ❔                     GreenTint60 ❔                     BlackTint60 ❔                          Navy60 ❔                          Gray40 ❔                    OrangeTint60 ❔                          Navy80 ❔                        Purple40 ❔                          Navy60 ❔                   
+      content-fg-tertiary       Navy40 ❔                          Gray60 ❔                          Navy60 ❔                          Navy40 ❔                     GreenTint40 ❔                     BlackTint40 ❔                          Navy40 ❔                          Gray60 ❔                    OrangeTint40 ❔                          Navy60 ❔                          Purple ❔                          Navy40 ❔                   
        color-panel-border  Transparent ❔                           Black ❔                     Transparent ❔                     Transparent ❔                           Black ❔                     Transparent ❔                     Transparent ❔                           Black ❔                           Black ❔                     Transparent ❔                           Black ❔                     Transparent ❔                   
                color-tint  BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10         BlackTint10 ✅ BlackTint10       
         color-tint-strong  BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15         BlackTint15 ✅ BlackTint15       
@@ -2690,28 +2690,28 @@ pride:
                  image-fg        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
        image-fg-secondary  WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80       
         image-fg-tertiary  WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60         WhiteTint60 ✅ WhiteTint60       
-                side-menu         Navy ❔                          Gray95 ❔                          Navy45 ❔                         Navy2.5 ❔                          Gray95 ❔                         Yellow5 ❔                         Navy1.5 ❔                          Gray95 ❔                          Gray95 ❔                           White ❔                           Black ❔                     BlackTint10 ❔                   
+                side-menu         Navy ❔                          Gray95 ❔                          Navy90 ❔                           Navy5 ❔                          Gray95 ❔                         Yellow5 ❔                           Navy3 ❔                          Gray95 ❔                          Gray95 ❔                           White ❔                           Black ❔                     BlackTint10 ❔                   
          side-menu-shadow  WhiteTint10 ❔                     WhiteTint10 ❔                     WhiteTint10 ❔                      NavyTint10 ❔                     GreenTint10 ❔                      BlackTint5 ❔                       NavyTint5 ❔                      WhiteTint5 ❔                      WhiteTint5 ❔                       NavyTint5 ❔                     WhiteTint10 ❔                     Transparent ❔                   
-                 top-menu         Navy ✅ Navy                     Gray95 ✅ Gray95                   Navy45 ✅ Navy45                    White ✅ White                    Gray95 ✅ Gray95                  Yellow5 ✅ Yellow5                   White ✅ White                    Gray95 ✅ Gray95                   Gray95 ✅ Gray95                    White ✅ White                     Black ✅ Black                      Pink ✅ Pink              
+                 top-menu         Navy ✅ Navy                     Gray95 ✅ Gray95                   Navy90 ✅ Navy90                    White ✅ White                    Gray95 ✅ Gray95                  Yellow5 ✅ Yellow5                   White ✅ White                    Gray95 ✅ Gray95                   Gray95 ✅ Gray95                    White ✅ White                     Black ✅ Black                      Pink ✅ Pink              
           top-menu-shadow  WhiteTint10 ❔                     WhiteTint10 ❔                     WhiteTint10 ❔                       NavyTint5 ❔                     GreenTint10 ❔                      BlackTint5 ❔                       NavyTint5 ❔                      WhiteTint5 ❔                      WhiteTint5 ❔                       NavyTint5 ❔                     WhiteTint10 ❔                     BlackTint10 ❔                   
-                    modal        White ❌ Navy47.5                 Gray90 ✅ Gray90                 Navy42.5 ✅ Navy42.5                  White ❌ Navy2.5                  Gray90 ✅ Gray90                  Yellow5 ❌ Yellow10                  White ❌ Navy1.5                  Gray90 ✅ Gray90                   Gray90 ✅ Gray90                    White ✅ White                    Gray95 ✅ Gray95                    White ❌ BlackTint10       
-             modal-border   NavyTint10 ❔                          Gray85 ❔                          Navy40 ❔                      NavyTint10 ❔                     GreenTint10 ❔                     BlackTint10 ❔                      NavyTint10 ❔                          Gray85 ❔                    OrangeTint10 ❔                      NavyTint10 ❔                          Gray90 ❔                     BlackTint10 ❔                   
+                    modal        White ❌ Navy95                   Gray90 ✅ Gray90                   Navy85 ✅ Navy85                    White ❌ Navy5                    Gray90 ✅ Gray90                  Yellow5 ❌ Yellow10                  White ❌ Navy3                    Gray90 ✅ Gray90                   Gray90 ✅ Gray90                    White ✅ White                    Gray95 ✅ Gray95                    White ❌ BlackTint10       
+             modal-border   NavyTint10 ❔                          Gray85 ❔                          Navy80 ❔                      NavyTint10 ❔                     GreenTint10 ❔                     BlackTint10 ❔                      NavyTint10 ❔                          Gray85 ❔                    OrangeTint10 ❔                      NavyTint10 ❔                          Gray90 ❔                     BlackTint10 ❔                   
                  tool-tip        Black ❔                           White ❔                           Black ❔                           Black ❔                           White ❔                           Black ❔                           Black ❔                           White ❔                           White ❔                           Black ❔                           White ❔                           Black ❔                   
             tool-tip-text        White ❔                           Black ❔                           White ❔                           White ❔                           Black ❔                           White ❔                           White ❔                           Black ❔                           Black ❔                           White ❔                           Black ❔                           White ❔                   
              overlay-tint   NavyTint20 ❔                     BlackTint20 ❔                      NavyTint20 ❔                     BlackTint20 ❔                     BlackTint20 ❔                     BlackTint20 ❔                     BlackTint20 ❔                     BlackTint20 ❔                     BlackTint20 ❔                     BlackTint20 ❔                     BlackTint20 ❔                     BlackTint20 ❔                   
       overlay-tint-strong   NavyTint60 ❔                     BlackTint60 ❔                      NavyTint40 ❔                     BlackTint40 ❔                     BlackTint40 ❔                     BlackTint40 ❔                     BlackTint60 ❔                     BlackTint40 ❔                     BlackTint40 ❔                     BlackTint40 ❔                     BlackTint40 ❔                     BlackTint40 ❔                   
        overlay-tint-heavy   NavyTint80 ❔                     BlackTint80 ❔                      NavyTint90 ❔                     BlackTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                   
-              unread-tint   BlueTint10 ❔                      BlueTint10 ❔                      BlueTint10 ❔                           Navy5 ❔                     GreenTint10 ❔                    OrangeTint10 ❔                      BlueTint10 ❔                       RedTint10 ❔                    OrangeTint10 ❔                      BlueTint10 ❔                      BlueTint10 ❔                    OrangeTint10 ❔                   
-        unread-tint-hover   BlueTint20 ❔                      BlueTint20 ❔                      BlueTint20 ❔                          Navy10 ❔                     GreenTint20 ❔                    OrangeTint20 ❔                      BlueTint20 ❔                       RedTint20 ❔                    OrangeTint20 ❔                      BlueTint20 ❔                      BlueTint20 ❔                    OrangeTint20 ❔                   
+              unread-tint   BlueTint10 ❔                      BlueTint10 ❔                      BlueTint10 ❔                          Navy10 ❔                     GreenTint10 ❔                    OrangeTint10 ❔                      BlueTint10 ❔                       RedTint10 ❔                    OrangeTint10 ❔                      BlueTint10 ❔                      BlueTint10 ❔                    OrangeTint10 ❔                   
+        unread-tint-hover   BlueTint20 ❔                      BlueTint20 ❔                      BlueTint20 ❔                          Navy20 ❔                     GreenTint20 ❔                    OrangeTint20 ❔                      BlueTint20 ❔                       RedTint20 ❔                    OrangeTint20 ❔                      BlueTint20 ❔                      BlueTint20 ❔                    OrangeTint20 ❔                   
                badge-icon        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
                badge-text        Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     White ❌ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     White ❌ Black                     Black ✅ Black                     Black ✅ Black             
-                chrome-ui         Blue ✅ Blue                       Blue ✅ Blue                       Blue ✅ Blue                     Navy30 ✅ Navy30                    Green ✅ Green                    Orange ✅ Orange                     Blue ✅ Blue                        Red ✅ Red                      Purple ✅ Purple                    Black ✅ Black                    Purple ✅ Purple                   Yellow ✅ Yellow            
-          chrome-ui-hover       Blue40 ✅ Blue40                   Blue40 ✅ Blue40                   Blue40 ✅ Blue40                   Navy25 ❌ Navy3040                Green40 ✅ Green40                Orange40 ✅ Orange40                 Blue40 ✅ Blue40                    Red40 ✅ Red40                  Purple40 ✅ Purple40                 Gray90 ❌ Black40                Purple40 ✅ Purple40               Yellow40 ✅ Yellow40          
-        chrome-ui-pressed       Blue30 ✅ Blue30                   Blue30 ✅ Blue30                   Blue30 ✅ Blue30                   Navy20 ❌ Navy3030                Green30 ✅ Green30                Orange30 ✅ Orange30                 Blue30 ✅ Blue30                    Red30 ✅ Red30                  Purple30 ✅ Purple30                 Gray80 ❌ Black30                Purple30 ✅ Purple30               Yellow30 ✅ Yellow30          
-          chrome-ui-focus         Blue ✅ Blue                       Blue ✅ Blue                       Blue ✅ Blue                     Navy30 ✅ Navy30                    Green ✅ Green                    Orange ✅ Orange                     Blue ✅ Blue                        Red ✅ Red                      Purple ✅ Purple                    Black ✅ Black                    Purple ✅ Purple                   Yellow ✅ Yellow            
+                chrome-ui         Blue ✅ Blue                       Blue ✅ Blue                       Blue ✅ Blue                     Navy60 ✅ Navy60                    Green ✅ Green                    Orange ✅ Orange                     Blue ✅ Blue                        Red ✅ Red                      Purple ✅ Purple                    Black ✅ Black                    Purple ✅ Purple                   Yellow ✅ Yellow            
+          chrome-ui-hover       Blue40 ✅ Blue40                   Blue40 ✅ Blue40                   Blue40 ✅ Blue40                   Navy50 ❌ Navy6040                Green40 ✅ Green40                Orange40 ✅ Orange40                 Blue40 ✅ Blue40                    Red40 ✅ Red40                  Purple40 ✅ Purple40                 Gray90 ❌ Black40                Purple40 ✅ Purple40               Yellow40 ✅ Yellow40          
+        chrome-ui-pressed       Blue30 ✅ Blue30                   Blue30 ✅ Blue30                   Blue30 ✅ Blue30                   Navy40 ❌ Navy6030                Green30 ✅ Green30                Orange30 ✅ Orange30                 Blue30 ✅ Blue30                    Red30 ✅ Red30                  Purple30 ✅ Purple30                 Gray80 ❌ Black30                Purple30 ✅ Purple30               Yellow30 ✅ Yellow30          
+          chrome-ui-focus         Blue ✅ Blue                       Blue ✅ Blue                       Blue ✅ Blue                     Navy60 ✅ Navy60                    Green ✅ Green                    Orange ✅ Orange                     Blue ✅ Blue                        Red ✅ Red                      Purple ✅ Purple                    Black ✅ Black                    Purple ✅ Purple                   Yellow ✅ Yellow            
              chrome-ui-fg        Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     White ❌ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     White ❌ Black                     Black ✅ Black                     Black ✅ Black             
-   chrome-ui-fg-secondary  BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         WhiteTint80 ❌ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80              Navy20 ❌ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80       
-    chrome-ui-fg-tertiary  BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         WhiteTint60 ❌ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60              Navy30 ❌ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60       
+   chrome-ui-fg-secondary  BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         WhiteTint80 ❌ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80              Navy40 ❌ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80       
+    chrome-ui-fg-tertiary  BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         WhiteTint60 ❌ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60              Navy60 ❌ BlackTint60         BlackTint60 ✅ BlackTint60         BlackTint60 ✅ BlackTint60       
          chrome-ui-toggle        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
             chrome-danger        Red30 ❔                           Red30 ❔                           Red30 ❔                           Red70 ❔                           Red30 ❔                           Red70 ❔                           Red70 ❔                           Red30 ❔                           Red30 ❔                           Red70 ❔                           Red30 ❔                           Red70 ❔                   
            chrome-success      Green30 ❔                         Green30 ❔                         Green30 ❔                         Green70 ❔                         Green30 ❔                         Green70 ❔                         Green70 ❔                         Green30 ❔                         Green30 ❔                         Green70 ❔                         Green30 ❔                         Green70 ❔                   
@@ -2723,13 +2723,13 @@ pride:
             chrome-orange     Orange30 ✅ Orange30               Orange30 ✅ Orange30               Orange30 ❌ 242,153,4630           Orange70 ❌ Orange30                Green30 ❌ 103,255,5630           Orange70 ❌ Orange30               Orange70 ❌ Orange30                  Red30 ❌ 157,157,15730          Purple30 ❌ Orange30               Orange70 ❌ Black30                Orange30 ❌ 255,86,030             Orange30 ❌ 255,139,330       
             chrome-yellow     Yellow30 ✅ Yellow30               Yellow30 ✅ Yellow30               Yellow30 ❌ 247,221,5630           Yellow70 ❌ Yellow30                Green30 ❌ 103,255,5630           Yellow70 ❌ Yellow30               Yellow70 ❌ Yellow30                  Red30 ❌ Gray2030               Purple30 ❌ Orange30               Yellow70 ❌ Black30                Yellow30 ❌ 170,255,030            Yellow30 ❌ 254,237,630       
              chrome-green      Green30 ✅ Green30                 Green30 ✅ Green30                 Green30 ❌ 86,188,13830            Green70 ❌ Green30                 Green30 ❌ 103,255,5630            Green70 ❌ Green30                 Green70 ❌ Green30                   Red30 ❌ Gray5030               Purple30 ❌ Orange30                Green70 ❌ Black30                 Green30 ❌ 36,216,3530             Green30 ❌ 18,128,4430       
-               content-ui         Navy ❔                            Blue ❔                            Blue ❔                          Navy30 ❔                           Green ❔                          Orange ❔                           Black ❔                             Red ❔                          Orange ❔                           Black ❔                          Purple ❔                            Pink ❔                   
-         content-ui-hover       Navy45 ❔                          Blue40 ❔                          Blue40 ❔                          Navy25 ❔                         Green40 ❔                        Orange40 ❔                          Gray90 ❔                           Red40 ❔                        Orange40 ❔                          Gray90 ❔                        Purple40 ❔                          Pink40 ❔                   
-       content-ui-pressed       Navy40 ❔                          Blue30 ❔                          Blue30 ❔                          Navy20 ❔                         Green30 ❔                        Orange30 ❔                          Gray80 ❔                           Red30 ❔                        Orange30 ❔                          Gray80 ❔                        Purple30 ❔                          Pink30 ❔                   
-         content-ui-focus         Blue ❔                            Blue ❔                            Blue ❔                          Navy30 ❔                           Green ❔                          Orange ❔                            Blue ❔                             Red ❔                          Orange ❔                           Black ❔                          Purple ❔                            Pink ❔                   
+               content-ui         Navy ❔                            Blue ❔                            Blue ❔                          Navy60 ❔                           Green ❔                          Orange ❔                           Black ❔                             Red ❔                          Orange ❔                           Black ❔                          Purple ❔                            Pink ❔                   
+         content-ui-hover       Navy90 ❔                          Blue40 ❔                          Blue40 ❔                          Navy50 ❔                         Green40 ❔                        Orange40 ❔                          Gray90 ❔                           Red40 ❔                        Orange40 ❔                          Gray90 ❔                        Purple40 ❔                          Pink40 ❔                   
+       content-ui-pressed       Navy80 ❔                          Blue30 ❔                          Blue30 ❔                          Navy40 ❔                         Green30 ❔                        Orange30 ❔                          Gray80 ❔                           Red30 ❔                        Orange30 ❔                          Gray80 ❔                        Purple30 ❔                          Pink30 ❔                   
+         content-ui-focus         Blue ❔                            Blue ❔                            Blue ❔                          Navy60 ❔                           Green ❔                          Orange ❔                            Blue ❔                             Red ❔                          Orange ❔                           Black ❔                          Purple ❔                            Pink ❔                   
             content-ui-fg        White ❔                           Black ❔                           Black ❔                           White ❔                           Black ❔                           Black ❔                           White ❔                           Black ❔                           Black ❔                           White ❔                           Black ❔                           Black ❔                   
-  content-ui-fg-secondary       Navy20 ❔                     BlackTint10 ❔                     BlackTint80 ❔                     WhiteTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                          Gray40 ❔                     BlackTint80 ❔                     BlackTint80 ❔                          Gray40 ❔                     BlackTint80 ❔                     BlackTint80 ❔                   
-   content-ui-fg-tertiary       Navy30 ❔                     BlackTint10 ❔                     BlackTint60 ❔                     WhiteTint60 ❔                     BlackTint60 ❔                     BlackTint60 ❔                          Gray60 ❔                     BlackTint60 ❔                     BlackTint60 ❔                          Gray60 ❔                     BlackTint60 ❔                     BlackTint60 ❔                   
+  content-ui-fg-secondary       Navy40 ❔                     BlackTint10 ❔                     BlackTint80 ❔                     WhiteTint80 ❔                     BlackTint80 ❔                     BlackTint80 ❔                          Gray40 ❔                     BlackTint80 ❔                     BlackTint80 ❔                          Gray40 ❔                     BlackTint80 ❔                     BlackTint80 ❔                   
+   content-ui-fg-tertiary       Navy60 ❔                     BlackTint10 ❔                     BlackTint60 ❔                     WhiteTint60 ❔                     BlackTint60 ❔                     BlackTint60 ❔                          Gray60 ❔                     BlackTint60 ❔                     BlackTint60 ❔                          Gray60 ❔                     BlackTint60 ❔                     BlackTint60 ❔                   
         content-ui-toggle        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
            content-danger        Red70 ❔                           Red30 ❔                           Red30 ❔                           Red70 ❔                           Red30 ❔                           Red70 ❔                           Red70 ❔                           Red30 ❔                           Red30 ❔                           Red70 ❔                           Red30 ❔                           Red70 ❔                   
           content-success      Green70 ❔                         Green30 ❔                         Green30 ❔                         Green70 ❔                         Green30 ❔                         Green70 ❔                         Green70 ❔                         Green30 ❔                         Green30 ❔                         Green70 ❔                         Green30 ❔                         Green70 ❔                   
@@ -2746,16 +2746,16 @@ pride:
          color-ui-pressed  BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80         BlackTint80 ✅ BlackTint80       
            color-ui-focus        Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black             
               color-ui-fg        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
-    color-ui-fg-secondary       Gray40 ❔                          Gray40 ❔                          Gray40 ❔                          Navy20 ❔                          Gray60 ❔                          Gray40 ❔                          Gray40 ❔                          Gray60 ❔                          Gray60 ❔                          Gray40 ❔                          Navy30 ❔                          Gray40 ❔                   
-     color-ui-fg-tertiary       Gray60 ❔                          Gray60 ❔                          Gray60 ❔                          Navy30 ❔                          Gray40 ❔                          Gray60 ❔                          Gray60 ❔                          Gray40 ❔                          Gray40 ❔                          Gray60 ❔                          Navy20 ❔                          Gray60 ❔                   
+    color-ui-fg-secondary       Gray40 ❔                          Gray40 ❔                          Gray40 ❔                          Navy40 ❔                          Gray60 ❔                          Gray40 ❔                          Gray40 ❔                          Gray60 ❔                          Gray60 ❔                          Gray40 ❔                          Navy60 ❔                          Gray40 ❔                   
+     color-ui-fg-tertiary       Gray60 ❔                          Gray60 ❔                          Gray60 ❔                          Navy60 ❔                          Gray40 ❔                          Gray60 ❔                          Gray60 ❔                          Gray40 ❔                          Gray40 ❔                          Gray60 ❔                          Navy40 ❔                          Gray60 ❔                   
           color-ui-toggle        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
                  image-ui        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
            image-ui-hover  WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90         WhiteTint90 ✅ WhiteTint90       
          image-ui-pressed  WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80         WhiteTint80 ✅ WhiteTint80       
           image-ui-accent        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
               image-ui-fg        Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black                     Black ✅ Black             
-    image-ui-fg-secondary       Navy30 ❔                          Navy30 ❔                          Navy30 ❔                          Navy30 ❔                          Gray60 ❔                          Gray60 ❔                          Navy30 ❔                          Gray60 ❔                          Gray60 ❔                          Gray60 ❔                          Gray60 ❔                          Navy30 ❔                   
-     image-ui-fg-tertiary       Navy20 ❔                          Navy20 ❔                          Navy20 ❔                          Navy20 ❔                          Gray40 ❔                          Gray40 ❔                          Navy20 ❔                          Gray40 ❔                          Gray40 ❔                          Gray40 ❔                          Navy20 ❔                          Navy20 ❔                   
+    image-ui-fg-secondary       Navy60 ❔                          Navy60 ❔                          Navy60 ❔                          Navy60 ❔                          Gray60 ❔                          Gray60 ❔                          Navy60 ❔                          Gray60 ❔                          Gray60 ❔                          Gray60 ❔                          Gray60 ❔                          Navy60 ❔                   
+     image-ui-fg-tertiary       Navy40 ❔                          Navy40 ❔                          Navy40 ❔                          Navy40 ❔                          Gray40 ❔                          Gray40 ❔                          Navy40 ❔                          Gray40 ❔                          Gray40 ❔                          Gray40 ❔                          Navy40 ❔                          Navy40 ❔                   
           image-ui-toggle        White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White                     White ✅ White             
                    danger          Red ❔                             Red ❔                             Red ❔                             Red ❔                             Red ❔                             Red ❔                             Red ❔                             Red ❔                             Red ❔                             Red ❔                             Red ❔                             Red ❔                   
              danger-hover        Red60 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                           Red40 ❔                   

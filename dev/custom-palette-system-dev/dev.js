@@ -1,37 +1,9 @@
-/* eslint-disable quote-props */
 /* eslint-disable comma-dangle */
 import fs from 'node:fs';
 
 const paletteData = JSON.parse(fs.readFileSync('src/paletteData.json', 'utf8'));
 const nativePaletteSystemData = JSON.parse(fs.readFileSync('src/paletteSystemData.json', 'utf8'));
-const realDesignTokenData = (await import('./designTokens.js')).default;
-
-// normally colorSomeColor0 is white, colorSomeColor50 is opaque, and colorSomeColor100 is black.
-// but for navy, colorNavy0 is white, colorNavy100 is opaque.
-// for these purposes, let's crush navy to the 0-50 range so we can transform it consistently.
-const { colorNavy3, colorNavy5, colorNavy10, colorNavy15, colorNavy20, colorNavy30, colorNavy40, colorNavy50, colorNavy60, colorNavy70, colorNavy80, colorNavy85, colorNavy90, colorNavy95, ...rest } = realDesignTokenData;
-const designTokenData = {
-  'colorNavy1.5': colorNavy3,
-  'colorNavy2.5': colorNavy5,
-  'colorNavy5': colorNavy10,
-  'colorNavy7.5': colorNavy15,
-  'colorNavy10': colorNavy20,
-  'colorNavy15': colorNavy30,
-  'colorNavy20': colorNavy40,
-  'colorNavy25': colorNavy50,
-  'colorNavy30': colorNavy60,
-  'colorNavy35': colorNavy70,
-  'colorNavy40': colorNavy80,
-  'colorNavy42.5': colorNavy85,
-  'colorNavy45': colorNavy90,
-  'colorNavy47.5': colorNavy95,
-  ...rest,
-
-  // extras
-  colorGray75: 'rgba(89, 89, 89, 1)',
-  colorGray18: 'rgba(208, 208, 208, 1)',
-  colorGray9: 'rgba(231, 231, 231, 1)',
-};
+const designTokenData = (await import('./designTokens.js')).default;
 
 // processes e.g. 'rgb(128, 128, 128, 1)' and '128, 128, 128' identically
 const processRgba = (value) => {
@@ -149,10 +121,10 @@ const generatedData = {};
 // '$1',
 const manualData = {
   accentTint: ['Blue', 'Blue', 'Blue', 'Navy', 'Green', 'Orange', 'Blue', 'Red', 'Purple', 'Navy', 'Purple', 'Yellow'],
-  panel: ['Navy47.5', 'Gray90', 'Navy42.5', 'Navy2.5', 'Gray90', 'Yellow10', 'Navy1.5', 'Gray90', 'Gray90', 'White', 'Gray95', 'BlackTint10'],
+  panel: ['Navy95', 'Gray90', 'Navy85', 'Navy5', 'Gray90', 'Yellow10', 'Navy3', 'Gray90', 'Gray90', 'White', 'Gray95', 'BlackTint10'],
   'chrome-tint': ['White', 'White', 'White', 'Navy', 'Green', 'Black', 'Navy', 'White', 'Orange', 'Navy', 'White', 'Black'],
-  accent: ['Blue', 'Blue', 'Blue', 'Navy30', 'Green', 'Orange', 'Blue', 'Red', 'Purple', 'Black', 'Purple', 'Yellow'],
-  chrome: ['Navy', 'Gray95', 'Navy45', 'White', 'Gray95', 'Yellow5', 'White', 'Gray95', 'Gray95', 'White', 'Black', 'Pink']
+  accent: ['Blue', 'Blue', 'Blue', 'Navy60', 'Green', 'Orange', 'Blue', 'Red', 'Purple', 'Black', 'Purple', 'Yellow'],
+  chrome: ['Navy', 'Gray95', 'Navy90', 'White', 'Gray95', 'Yellow5', 'White', 'Gray95', 'Gray95', 'White', 'Black', 'Pink']
 };
 
 for (const [i, paletteName] of Object.entries(nativePaletteNames)) {
