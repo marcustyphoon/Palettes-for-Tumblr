@@ -45,14 +45,12 @@ and font-weight: 350.
 .zGDfg,
 .QKm6q .BnVIB .mV8AT,
 .Ks9nn .ZR5vI,
-.FzBTa .GpO9n,
 .c1xDI,
 .xPEP2,
 .rB7hU,
 .RPMuM,
 .KPqE4 p.zDaqs,
 .Sft1t,
-.a0QuG,
 .dJl65,
 .YmlZc,
 .KaTRm,
@@ -90,4 +88,10 @@ and font-weight: 350.
 .vgRpB,
 .Vt7qF .wL4YA.jk3gM .UEULa {
   font-weight: normal;
+}
+@media (max-width:989.999px) {
+  .FzBTa .GpO9n,
+  .a0QuG {
+    font-weight: normal;
+  }
 }

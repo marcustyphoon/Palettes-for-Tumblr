@@ -3,6 +3,7 @@ import cssParser from 'css';
 
 try {
   const fontWeight350Rules = [];
+  const fontWeight350MediaRules = {};
 
   const sw = await fetch('https://www.tumblr.com/sw.js').then((result) => result.text());
   const urls = sw.match(/https:\/\/assets\.tumblr\.com\/pop\/[a-z0-9-]+\.css/g);
@@ -11,15 +12,28 @@ try {
     const cssText = await fetch(url).then((response) => response.text());
 
     const ast = cssParser.parse(cssText);
-    const rules = ast.stylesheet.rules
-      .flatMap((rule) => rule.rules ?? [rule])
-      .filter((rule) => rule.type === 'rule');
 
-    fontWeight350Rules.push(...rules.filter(
-      ({ declarations }) =>
+    fontWeight350Rules.push(...ast.stylesheet.rules.filter(
+      ({ type, declarations }) =>
+        type === 'rule' &&
         declarations.find(({ property, value }) => property === 'font-family' && value === 'var(--font-family-modern)') &&
         declarations.find(({ property, value }) => property === 'font-weight' && value === '350')
     ));
+
+    ast.stylesheet.rules
+      .filter((rule) => rule.type === 'media')
+      .forEach((mediaRule) => {
+        const rules = mediaRule.rules.filter(
+          ({ type, declarations }) =>
+            type === 'rule' &&
+            declarations.find(({ property, value }) => property === 'font-family' && value === 'var(--font-family-modern)') &&
+            declarations.find(({ property, value }) => property === 'font-weight' && value === '350')
+        );
+        if (rules.length) {
+          fontWeight350MediaRules[mediaRule.media] ??= [];
+          fontWeight350MediaRules[mediaRule.media].push(...rules);
+        }
+      });
   }
 
   const selectorSets = [...new Set(fontWeight350Rules.map(({ selectors }) => selectors.join(', ')))];
@@ -34,7 +48,16 @@ and font-weight: 350.
 */
 ${selectorSets.join(',\n')} {
   font-weight: normal;
-}\n`;
+}
+${Object.entries(fontWeight350MediaRules).map(([key, value]) => {
+  const selectorSets = [...new Set(value.map(({ selectors }) => selectors.join(', ')))];
+  return `@media ${key} {
+  ${selectorSets.join(',\n  ')} {
+    font-weight: normal;
+  }
+}`;
+}).join('\n')}
+`;
 
   await fs.writeFile('src/fontWeightOverride.css', override, { encoding: 'utf8', flag: 'w+' });
   console.log(`wrote ${selectorSets.length} selector sets`);
