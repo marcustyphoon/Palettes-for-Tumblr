@@ -30,6 +30,13 @@
       "css": [
         "peepr_shadow.css"
       ]
+    },
+    {
+      "matches": [ "*://www.tumblr.com/*" ],
+      "run_at": "document_end",
+      "js": [
+        "font_weight_override.js"
+      ]
     }
   ],
 	"homepage_url": "https://github.com/AprilSylph/Palettes-for-Tumblr#readme",

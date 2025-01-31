@@ -3,6 +3,12 @@ const paletteSystemData = fetch(browser.runtime.getURL('/paletteSystemData.json'
 const setCssVariable = ([property, value]) => document.documentElement.style.setProperty(`--${property}`, value);
 const removeCssVariable = ([property]) => document.documentElement.style.removeProperty(`--${property}`);
 
+const documentInteractive = new Promise((resolve) =>
+  document.readyState === 'loading'
+    ? document.addEventListener('readystatechange', resolve, { once: true })
+    : resolve()
+);
+
 let appliedPaletteEntries = [];
 
 const applyCurrentPalette = async function () {
@@ -52,6 +58,10 @@ const applyFontFamily = async function () {
     '--font-family-modern',
     fontFamily === 'custom' ? customFontFamily : fontFamily
   );
+  await documentInteractive;
+  document.body.classList[
+    (fontFamily === 'custom' ? customFontFamily : fontFamily) ? 'add' : 'remove'
+  ]('override-font-family-modern-weight');
 };
 
 const applyFontSize = async function () {
