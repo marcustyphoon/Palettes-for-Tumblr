@@ -78,3 +78,5 @@ applyCurrentPalette();
 applyFontFamily();
 applyFontSize();
 browser.storage.local.onChanged.addListener(onStorageChanged);
+
+import(browser.runtime.getURL('/override_activity_badge_fill.js'));
